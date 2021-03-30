@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "authors": "Aistė Karaliūnaitė, Audrius Dumbliauskas, Kamile Dementaviciute, Liudvikas Kaušila, Lukas Juškėnas",  
+  "authors": "Aistė Karaliūnaitė, Audrius Dumbliauskas, Kamile Dementavičiūtė, Liudvikas Kaušila, Lukas Juškėnas",  
   "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.1"
