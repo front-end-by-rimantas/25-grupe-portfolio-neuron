@@ -1,11 +1,13 @@
 // IMPORT
+/* Loading page*/
 /* header */
 /* navigation */
-/* Power your creativity */
-/* We create */
+/* About */
+/* About video */
 /* achievements */
 /* Services */
 /* Latest project */
+/* Partner section */
 /* Subscription */
 /* How we work */
 /* blog */
@@ -13,13 +15,15 @@
 /* footer */
 
 // FUNKCIJU PANAUDOJIMAS
+/* Loading page*/
 /* header */
 /* navigation */
-/* Power your creativity */
-/* We create */
+/* About */
+/* About video */
 /* achievements */
 /* Services */
 /* Latest project */
+/* Partner section */
 /* Subscription */
 /* How we work */
 /* blog */
