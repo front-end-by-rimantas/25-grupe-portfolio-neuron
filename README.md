@@ -7,8 +7,6 @@
 
 # Neuron Portfolio
 
-_25 group website project_
-
 Group project for the Full Stack Developer Course at BIT (Baltic Institute of Technology).
 
 ## Links
