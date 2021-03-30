@@ -1,11 +1,31 @@
 // IMPORT
-// header
-// services
-// achievements
-// footer
+/* Loading page*/
+/* header */
+/* navigation */
+/* About */
+/* About video */
+/* achievements */
+/* Services */
+/* Latest project */
+/* Partner section */
+/* Subscription */
+/* How we work */
+/* blog */
+/* contacts */
+/* footer */
 
 // FUNKCIJU PANAUDOJIMAS
-// header
-// services
-// achievements
-// footer
+/* Loading page*/
+/* header */
+/* navigation */
+/* About */
+/* About video */
+/* achievements */
+/* Services */
+/* Latest project */
+/* Partner section */
+/* Subscription */
+/* How we work */
+/* blog */
+/* contacts */
+/* footer */
