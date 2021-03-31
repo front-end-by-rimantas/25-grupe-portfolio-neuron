@@ -1,31 +1,31 @@
 // IMPORT
 /* Loading page*/
-/* header */
-/* navigation */
+/* Header */
+/* Navigation */
+/* Hero */
 /* About */
 /* About video */
-/* achievements */
+/* Achievements */
 /* Services */
 /* Latest project */
 /* Partner section */
-/* Subscription */
 /* How we work */
-/* blog */
-/* contacts */
-/* footer */
+/* Blog */
+/* Contacts */
+/* Footer */
 
 // FUNKCIJU PANAUDOJIMAS
 /* Loading page*/
-/* header */
-/* navigation */
+/* Header */
+/* Navigation */
+/* Hero */
 /* About */
 /* About video */
-/* achievements */
+/* Achievements */
 /* Services */
 /* Latest project */
 /* Partner section */
-/* Subscription */
 /* How we work */
-/* blog */
-/* contacts */
-/* footer */
+/* Blog */
+/* Contacts */
+/* Footer */
