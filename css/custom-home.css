@@ -22,6 +22,9 @@
 /* Partner section */
 /* How we work */
 /* Blog */
+#blog-title {
+  text-align: center;
+}
 .blog-image {
   width: 100%;
 }
