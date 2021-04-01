@@ -28,7 +28,9 @@
     background: linear-gradient(var(--color-blue), var(--color-green))
 }
 .bg-partner {
-    background-image: url(../../img/backgrounds/partner-bg.jpg)
+    background-image: url(../../img/backgrounds/partner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bg-contact {
     background-image: url(../../img/backgrounds/contact-bg.jpg);
