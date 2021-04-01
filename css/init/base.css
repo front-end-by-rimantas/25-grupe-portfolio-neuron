@@ -1,0 +1,18 @@
+.bg-hero {
+    background-image: url(../../img/backgrounds/header_bg.jpg)
+}
+.bg-grey {
+    background-color: var(--color-lightgrey); /* for services and blog */
+}
+.bg-achievements {
+    background: linear-gradient(var(--color-blue), var(--color-green))
+}
+.bg-partner {
+    background-image: url(../../img/backgrounds/partner-bg.jpg)
+}
+.bg-contact {
+    background-image: url(../../img/backgrounds/contact-bg.jpg);
+}
+.bg-footer {
+    background-image: url(../../img/backgrounds/footer-bg.jpg);
+}

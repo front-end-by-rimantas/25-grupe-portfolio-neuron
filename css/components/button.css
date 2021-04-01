@@ -1,0 +1,56 @@
+.btn {
+    display: inline-block;
+    padding: 10px 35px;
+    background: linear-gradient(150deg, var(--color-blue), var(--color-green));
+    color: #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+.btn:hover {
+    background: linear-gradient(210deg, var(--color-blue), var(--color-green));   
+}
+
+.btn-learn {
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: #fff;
+    color: var(--color-blue);
+    border-radius: 25px;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    user-select: none;
+}
+.btn-learn:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.btn-join {
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 25px;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    user-select: none;
+}
+.btn-join:hover {
+    background-color: #fff;
+    color: var(--color-blue);
+    border: 1px solid #fff;
+}
