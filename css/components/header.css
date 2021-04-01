@@ -1,0 +1,48 @@
+/* BASE */
+header.container {
+  color: white;
+  background-color: #35a4f3;
+  padding: 0px;
+}
+.row.header-top {
+  padding: 10px 0px 6px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 45px;
+}
+.row.header-bottom {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 70px;
+}
+
+/* CONTACTS */
+span.header-contacts {
+  font-size: 15px;
+}
+
+/* ALL LINKS */
+header a {
+  color: white;
+  text-decoration: none;
+}
+header a:visited {
+  color: white;
+}
+
+/* ICONS */
+.header-contact-icon {
+  margin: 0 10px;
+}
+.header-social-icons {
+  display: inline-block;
+  text-align: right;
+}
+.header-social-icons a {
+  font-size: 14px;
+  margin: 0 8px;
+}
+.header-bottom-icons {
+  display: inline-block;
+  text-align: right;
+}
