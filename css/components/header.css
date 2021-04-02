@@ -1,10 +1,11 @@
 /* BASE */
-header.container {
+header.container,
+header.container * {
   color: white;
   background-color: #35a4f3;
   padding: 0px;
   font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: middle;
 }
 
 /* ALL LINKS */
@@ -52,15 +53,20 @@ span i.header-phone-icon {
   text-align: right;
 }
 
+hr {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 /* HEADER BOTTOM */
 div.row.header-bottom {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 70px;
+  vertical-align: middle;
 }
-.header-bottom div div {
-  line-height: 70px;
-}
+
 div.header-bottom-right {
   text-align: right;
 }
@@ -78,4 +84,8 @@ nav.menu {
 nav.header-bottom-icons {
   display: inline-block;
   text-align: right;
+  line-height: 23px;
+}
+nav.header-bottom-icons a i {
+  line-height: 23px;
 }
