@@ -106,3 +106,8 @@ nav.header-bottom-icons a i {
 nav.header-bottom-icons a i:last-of-type {
   margin-right: 0;
 }
+/* STICKY HEADER */
+.sticky {
+  position: fixed;
+  top: 0;
+}
