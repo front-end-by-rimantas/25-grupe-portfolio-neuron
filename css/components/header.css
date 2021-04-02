@@ -3,22 +3,8 @@ header.container {
   color: white;
   background-color: #35a4f3;
   padding: 0px;
-}
-.row.header-top {
-  padding: 10px 0px 6px;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 45px;
-}
-.row.header-bottom {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 70px;
-}
-
-/* CONTACTS */
-span.header-contacts {
-  font-size: 15px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ALL LINKS */
@@ -30,10 +16,29 @@ header a:visited {
   color: white;
 }
 
-/* ICONS */
-.header-contact-icon {
+/* HEADER TOP */
+div.row.header-top {
+  padding: 10px 0px 6px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 45px;
+}
+
+/* CONTACTS */
+span.header-contacts {
+  font-size: 15px;
+}
+span i.header-email-icon {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+span i.header-phone-icon {
+  display: inline-block;
   margin: 0 10px;
 }
+
+/* SOCIAL ICONS */
+
 .header-social-icons {
   display: inline-block;
   text-align: right;
@@ -43,6 +48,34 @@ header a:visited {
   margin: 0 8px;
 }
 .header-bottom-icons {
+  display: inline-block;
+  text-align: right;
+}
+
+/* HEADER BOTTOM */
+div.row.header-bottom {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 70px;
+}
+.header-bottom div div {
+  line-height: 70px;
+}
+div.header-bottom-right {
+  text-align: right;
+}
+
+/* LOGO */
+.header-logo {
+  display: inline-block;
+}
+/* MENU */
+nav.menu {
+  display: inline-block;
+  text-align: right;
+}
+/* SHOPING & SEARCH ICONS */
+nav.header-bottom-icons {
   display: inline-block;
   text-align: right;
 }
