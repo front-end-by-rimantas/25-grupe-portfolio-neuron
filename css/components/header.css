@@ -19,10 +19,9 @@ header a:visited {
 
 /* HEADER TOP */
 div.row.header-top {
-  padding: 10px 0px 6px;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 45px;
+  line-height: 55px;
 }
 
 /* CONTACTS */
@@ -47,6 +46,9 @@ span i.header-phone-icon {
 .header-social-icons a {
   font-size: 14px;
   margin: 0 8px;
+}
+.header-social-icons a:last-of-type {
+  margin-right: 0;
 }
 .header-bottom-icons {
   display: inline-block;
@@ -80,12 +82,27 @@ nav.menu {
   display: inline-block;
   text-align: right;
 }
+nav.menu a {
+  margin-right: 20px;
+}
+
+nav.small-menu a i {
+  position: relative;
+  top: -2px;
+  margin-right: 8px;
+  font-size: 16px;
+}
 /* SHOPING & SEARCH ICONS */
 nav.header-bottom-icons {
   display: inline-block;
   text-align: right;
-  line-height: 23px;
 }
 nav.header-bottom-icons a i {
-  line-height: 23px;
+  position: relative;
+  top: -4px;
+  margin: 0 27px;
+  font-size: 16px;
+}
+nav.header-bottom-icons a i:last-of-type {
+  margin-right: 0;
 }
