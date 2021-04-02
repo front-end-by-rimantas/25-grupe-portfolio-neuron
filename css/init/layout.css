@@ -130,6 +130,7 @@
   padding-bottom: 50px;
 }
 
+
 @media (min-width: 575px) {
   .container > .row {
     width: 540px;
