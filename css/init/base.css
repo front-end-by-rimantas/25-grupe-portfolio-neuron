@@ -88,6 +88,9 @@ p {
     line-height: 26px;
     color: #666666;
 }
+h2 {
+    font-weight: 600;
+}
 .text-white {
     color: #fff;
 }
