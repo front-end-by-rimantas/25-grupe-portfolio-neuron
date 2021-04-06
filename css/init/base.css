@@ -1,7 +1,7 @@
 /* fonts */
 @font-face {
     font-family: 'Poppins';
-    src: url(../../fonts/Poppins/Poppins-Black.ttf) format('truetype');
+    src: url(../../fonts/Poppins/Poppins-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -77,6 +77,7 @@ p {
 .text-white {
     color: #fff;
 }
+
 /* h1, h2, h3, font size and style on different devices */
 @media (max-width: 574px) {    
     h1 {

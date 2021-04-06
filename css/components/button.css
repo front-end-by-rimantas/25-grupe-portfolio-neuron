@@ -54,3 +54,25 @@
     color: var(--color-blue);
     border: 1px solid #fff;
 }
+
+.btn-submit {
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    user-select: none;
+    height: 60px;
+    width: 100%;
+    transition: 0.7s;
+}
+.btn-submit:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: var(--color-blue);
+}
