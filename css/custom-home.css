@@ -16,6 +16,17 @@
 /* Navigation */
 /* Hero */
 /* About */
+.container > .row > .cards{
+}
+.container > .row > .cards > .card {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 40px;
+}
+.container > .row > .cards:hover > .card{
+    background: linear-gradient(135deg, var(--color-blue), var(--color-green));
+} 
 /* About video */
 /* Achievements */
 /* Services */
