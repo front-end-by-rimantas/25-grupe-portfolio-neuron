@@ -25,5 +25,57 @@
 /* Partner section */
 /* How we work */
 /* Blog */
+.container.blog h2 {
+  text-align: center;
+  margin: 60px 0 30px;
+  font-weight: 600;
+  font-size: 35px;
+
+}
+.blog-block{
+  background-color: white;
+  margin-bottom: 150px;
+}
+.blog-image {
+  width: 100%;
+}
+.container.blog .tiny-intro {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.container.blog .tiny-intro p {
+  display: inline-block;
+}
+.container.blog .tiny-intro p:first-of-type, 
+.container.blog .tiny-intro p:nth-last-of-type(2){
+ margin-right: 20px;
+}
+.container.blog .tiny-intro p i{
+ position: relative;
+ top: 5px;
+ color: #01a0f9;
+}
+.container.blog .tiny-intro p span{
+  color: #01a0f9;
+}
+.container.blog h3 {
+  margin-bottom: 10px;
+}
+.container.blog h3 a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.container.blog h3 a:hover {
+  transition: all 0.5s ease 0s;
+  color: var(--color-green);
+}
+.container.blog .main-blog-text {
+  margin-bottom: 20px;
+}
+.container.blog .btn {
+  margin-bottom: 25px;
+}
+
 /* Contacts */
 /* Footer */
