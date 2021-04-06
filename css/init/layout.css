@@ -123,15 +123,6 @@
   display: none;
 }
 
-.row > .pt80 {
-  padding-top: 80px;
-}
-.row > .pb50 {
-  padding-bottom: 50px;
-}
-
-
-
 @media (min-width: 575px) {
   .container > .row {
     width: 540px;
@@ -388,12 +379,7 @@
   .row > .hidden-lg {
     display: none;
   }
-  .row > .pt-lg {
-    padding-top: 300px;
-  }
-  .row > .pb-lg {
-    padding-bottom: 100px;
-  }
+}
 
 @media (min-width: 1199px) {
   :root {
@@ -485,9 +471,9 @@
 
 @media (min-width: 1399px) {
   .container > .row {
-    width: 1320px;
-    margin-left: calc(50% - 660px);
-    margin-right: calc(50% - 660px);
+    width: 1200px;
+    margin-left: calc(50% - 600px);
+    margin-right: calc(50% - 600px);
   }
   .row > .col-xxl-1 {
     width: var(--col1);
