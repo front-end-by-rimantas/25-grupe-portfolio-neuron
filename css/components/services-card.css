@@ -1,5 +1,5 @@
 .card-bg-white {
-    background: #fff;
+    background: -webkit-linear-gradient(-90deg, #fff, #fff);
     transition: all 1s ease;
 }
 .card {  

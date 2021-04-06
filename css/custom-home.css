@@ -5,7 +5,7 @@
 @import "./init/base.css";
 /* 3rd party */
 @import "./3rd-party/font-awesome.min.css";
-@import ".././fonts/flaticon/flaticon.css";
+@import "./3rd-party/flaticon/flaticon.css";
 /* components */
 @import "./components/footer.css";
 @import "./components/header.css";
