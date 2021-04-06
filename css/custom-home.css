@@ -24,13 +24,21 @@
 /* Partner section */
 .partner {
     text-align: center;
+    vertical-align: center;
 }
 .wid img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 991px) {
+.pab50 {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
 }
 /* How we work */
 .works-unit {
-    display: block;
+    position: relative;
     box-sizing: border-box;
     border: dashed 1px var(--color-blue);
     border-radius: 50%;
@@ -65,7 +73,7 @@
       transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.2);
       opacity: 0;
     }
-  }*/ 
+  }*/
 .works-title {
     color: #666666;
 
