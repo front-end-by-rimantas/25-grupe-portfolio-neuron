@@ -5,6 +5,7 @@
 @import "./init/base.css";
 /* 3rd party */
 @import "./3rd-party/font-awesome.min.css";
+@import "./3rd-party/flaticon.css";
 /* components */
 @import "./components/footer.css";
 @import "./components/header.css";
@@ -16,7 +17,9 @@
 /* Navigation */
 /* Hero */
 /* About */
-.container > .row > .cards{
+i[class*="flaticon"] {
+    font-size: 80px;
+    color: var(--color-green);
 }
 .container > .row > .cards > .card {
     background-color: #fff;
