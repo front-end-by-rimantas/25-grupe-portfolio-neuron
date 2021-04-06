@@ -1,16 +1,14 @@
-.card-bg-grey {
-    background-color: #EFF1F7;
-}
 .card-bg-white {
-    background-color: #fff;
-    transition: all 0.7s easy 0s;
+    background: #fff;
+    transition: all 1s ease;
 }
 .card {  
     float: left;
     border-radius: 10px;
     margin: 20px;
     vertical-align: top;
-    padding: 30px 15px;   
+    padding: 30px 15px;  
+    transition: all 1s ease; 
 }
 .cardFaIcon {
     font-size: 60px;
@@ -18,12 +16,12 @@
     background: -webkit-linear-gradient(-90deg, #01a0f9, #09c778);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 0.7s easy 0s;
+    transition: all 1s ease;
 }
 .card-bg-white:hover {
     background: linear-gradient(-41deg, #09c778, #01a0f9);
     color: #fff;
-    transition: all 0.7s easy 0s;
+    transition: all 1s ease;
 
 }
 .card-bg-white:hover > .cardFaIcon {
@@ -32,15 +30,15 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 0.7s easy 0s;
+    transition: all 1s ease;
 }
 
 .card-bg-white:hover > h3 {
     color: #fff; 
-    transition: all 0.7 easy 0s; 
+    transition: all 1s ease; 
 
 }
 .card-bg-white:hover > p {
     color: #fff;  
-    transition: all 0.7 easy 0s;
+    transition: all 1s ease;
 }

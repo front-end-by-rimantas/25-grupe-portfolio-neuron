@@ -10,10 +10,6 @@ function services(selector, data) {
     for (let i = 0; i < list.length; i++) {
         const service = list[i];
 
-        if (service.active) {
-            continue;
-        }
-
         HTML += `<div class="col-sm-12 col-md-6 col-lg-4 card-bg-white card">
                     <i class="${service.faIcon}"></i>
                     <h3>${service.title}</h3>
