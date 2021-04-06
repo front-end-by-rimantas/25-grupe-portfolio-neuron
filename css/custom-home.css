@@ -36,6 +36,14 @@
     padding-bottom: 60px;
 }
 }
+@media (min-width: 991px) {
+.pt-lg {
+    padding-top: 300px;
+}
+.pb-lg {
+    padding-bottom: 100px;
+}
+}
 /* How we work */
 .works-unit {
     position: relative;
