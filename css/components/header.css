@@ -38,7 +38,6 @@ span i.header-phone-icon {
 }
 
 /* SOCIAL ICONS */
-
 .header-social-icons {
   display: inline-block;
   text-align: right;
@@ -68,7 +67,6 @@ div.row.header-bottom {
   line-height: 70px;
   vertical-align: middle;
 }
-
 div.header-bottom-right {
   text-align: right;
 }
@@ -77,6 +75,7 @@ div.header-bottom-right {
 .header-logo {
   display: inline-block;
 }
+
 /* MENU */
 nav.menu {
   display: inline-block;
@@ -85,13 +84,13 @@ nav.menu {
 nav.menu a {
   margin-right: 20px;
 }
-
 nav.small-menu a i {
   position: relative;
   top: -2px;
   margin-right: 8px;
   font-size: 16px;
 }
+
 /* SHOPING & SEARCH ICONS */
 nav.header-bottom-icons {
   display: inline-block;
@@ -106,6 +105,7 @@ nav.header-bottom-icons a i {
 nav.header-bottom-icons a i:last-of-type {
   margin-right: 0;
 }
+
 /* STICKY HEADER */
 header .header-bottom.sticky {
   position: fixed;
@@ -116,4 +116,10 @@ header .header-bottom.sticky {
   margin-right: 0;
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
+}
+
+@media (max-width: 991px) {
+    header .header-bottom.sticky  {
+    display: none;
+  }
 }
