@@ -107,11 +107,13 @@ nav.header-bottom-icons a i:last-of-type {
   margin-right: 0;
 }
 /* STICKY HEADER */
-.sticky {
+header .header-bottom.sticky {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   margin-left: 0;
   margin-right: 0;
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
