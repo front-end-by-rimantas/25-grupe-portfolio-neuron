@@ -8,6 +8,8 @@ import { headerScroll } from './components/header/header.js';
 /* About video */
 /* Achievements */
 /* Services */
+import { servicesData } from './data/servicesData.js';
+import { services } from './components/services/services.js';
 /* Latest project */
 /* Partner section */
 /* How we work */
@@ -25,6 +27,7 @@ headerScroll();
 /* About video */
 /* Achievements */
 /* Services */
+services('#services_block', servicesData);
 /* Latest project */
 /* Partner section */
 /* How we work */
