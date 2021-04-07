@@ -5,10 +5,12 @@
 @import "./init/base.css";
 /* 3rd party */
 @import "./3rd-party/font-awesome.min.css";
+@import "./3rd-party/flaticon/flaticon.css";
 /* components */
 @import "./components/footer.css";
 @import "./components/header.css";
 @import "./components/button.css";
+@import "./components/services-card.css";
 
 /* CUSTOM STILIUS SEKCIJOMS */
 /* Loading page*/
