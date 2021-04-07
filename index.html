@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neuron</title>
     <link rel="stylesheet" href="./css/custom-home.css">
+    <link rel="icon" href="./img/placeholder.png"/>
 </head>
 
 <body>
@@ -156,10 +157,11 @@
     <!-- Contact form START -->
     <div class="container contacts bg-contact">
         <div class="row">
-            <div class="col-lg-5 pr-30 md-pr-15 contactUs">
+            <div class="col-lg-5 pr-30 md-pr-15">
+                <div class="contactUs">
                 <img src="" alt=""> 
 
-                <h2 class="contact-bg-left">Contact With Us</h2>                      
+                <h2 class="contact-bg-left">Contact With Us</h2>   
                 <h3>Visit Us</h3>
                 <p>Old Buffalo Street</p>
                 <p>Northwest #205, New York - 3087</p>
@@ -173,31 +175,42 @@
                 <p><a href="www.yourname.com" >www.yourname.com</a></p>
 
                 </div>
-            
-            <div class="col-lg-7 pl-30 md-pl-15 contactForm">
+            </div>
+            <div class="col-lg-7 pl-30 md-pl-15">
+                <div class="contact-form pt-100 md-pt-50">
                     <form id="contactFormBlue">
-                        <div class="form-row">
-                            <input id="Name" type="text" placeholder="Name" required>                            
-                            <input id="E-mail" type=E-mail placeholder="E-mail" required>
+                        <div class="form-row">                            
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-field">
+                                    <input id="Name" type="text" placeholder="Name" required>
+                                    </div>
+                                </div>                             
+
+                                <div class="col-md-6 col-sm-12">                          
+                                <input id="E-mail" type=E-mail placeholder="E-mail" required>
+                                </div>                            
                         </div>
-                        
                         <div class="form-row">
+                            <div class="col-md-6 col-sm-12">
                             <input id="Number" type="Number" placeholder="Phone Number" required>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
                             <input id="Subject" type="Subject" placeholder="Subject" required>
+                            </div>
                         </div>        
 
                         <div class="message-field">
                             <input id="Message" type="Message" placeholder="Your Message Here" autocomplete="off" required>
                         </div>
-                            <button class="btn-submit">Submit Now !</button>
-                        
-                        </div>      
-                        </form>  
-                    </div>
+                            <div class="submitbutton">
+                                <button class="btn-submit">Submit Now !</button>    
+                            </div>                                                 
+                    </form>  
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Contact form END -->
     
     <!-- FOOTER START -->
