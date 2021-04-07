@@ -1,7 +1,7 @@
 /* fonts */
 @font-face {
     font-family: 'Poppins';
-    src: url(../../fonts/Poppins/Poppins-Black.ttf) format('truetype');
+    src: url(../../fonts/Poppins/Poppins-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -10,6 +10,20 @@
     font-family: 'Poppins';
     src: url(../../fonts/Poppins/Poppins-Bold.ttf) format('truetype');
     font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url(../../fonts/Poppins/Poppins-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url(../../fonts/Poppins/Poppins-Medium.ttf) format('truetype');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
   }
@@ -73,10 +87,13 @@
 }
 /* base styles */
 p {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 26px;
     color: #666666;
+}
+h2 {
+    font-weight: 600;
 }
 .text-white {
     color: #fff;
@@ -84,13 +101,13 @@ p {
 /* h1, h2, h3, font size and style on different devices */
 @media (max-width: 574px) {    
     h1 {
-        font-size: 28px;
+        font-size: 30px;
     }
     h2 {
-        font-size: 20px;
+        font-size: 30px;
     }
     h3 {
-        font-size: 17px;
+        font-size: 18px;
     }
     .bg-title-center {
         background-size: 150px 10px;
@@ -99,10 +116,10 @@ p {
 }
 @media (min-width: 575px) {    
     h1 {
-        font-size: 28px;
+        font-size: 30px;
     }
     h2 {
-        font-size: 26px;
+        font-size: 30px;
     }
     h3 {
         font-size: 18px;
@@ -113,15 +130,6 @@ p {
     }
 }
 @media (min-width: 767px) {
-    h1 {
-        font-size: 32px;
-    }
-    h2 {
-        font-size: 29px;
-    }
-    h3 {
-        font-size: 18px;
-    }
     .bg-title-center {
         background-size: 100px 8px;
         background-position: center 26px;
@@ -129,16 +137,13 @@ p {
 }
 @media (min-width: 991px) {
     h1 {
-        font-size: 32px;
+        font-size: 35px;
     }
     h2 {
-        font-size: 31px;
+        font-size: 30px;
     }
     h3 {
         font-size: 20px;
-    }
-    p {
-        font-size: 14px;
     }
     .bg-title-center {
         background-size: 108px 8px;
@@ -147,12 +152,6 @@ p {
 }
 
 @media (min-width: 1199px) {
-    h1 {
-        font-size: 35px;
-    }
-    h2 {
-        font-size: 35px;
-    }
     h3 {
         font-size: 20px;
     }
@@ -166,7 +165,7 @@ p {
         font-size: 46px;
     }
     h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
     h3 {
         font-size: 22px;
