@@ -2,10 +2,12 @@
 header.container,
 header.container * {
   color: white;
-  background-color: #35a4f3;
   padding: 0px;
   font-weight: normal;
   vertical-align: middle;
+}
+header.container {
+  background: linear-gradient(150deg, var(--color-blue), var(--color-green));
 }
 
 /* ALL LINKS */
@@ -116,8 +118,8 @@ header .header-bottom.sticky {
   margin-right: 0;
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
+  background: linear-gradient(150deg, var(--color-blue), var(--color-green));
 }
-
 @media (max-width: 991px) {
     header .header-bottom.sticky  {
     display: none;
