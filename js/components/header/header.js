@@ -1,22 +1,21 @@
 // STICKY HEADER
 
-function headerScroll() {
-  if (window.matchMedia("(min-width: 991px)").matches) {
-    window.onscroll = function () { myFunction() };
+window.onscroll = function () { stickyHeader() };
 
-    var header = document.querySelector("#header-bottom");
-    var sticky = header.offsetTop;
+const header = document.querySelector("#header-bottom");
+const sticky = header.offsetTop;
 
-    function myFunction() {
-      if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-    }
+function stickyHeader() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
   }
-
 }
 
-export { headerScroll }
+
+
+export { stickyHeader }
+
+
 

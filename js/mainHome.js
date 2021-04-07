@@ -1,7 +1,7 @@
 // IMPORT
 /* Loading page*/
 /* Header */
-import { headerScroll } from './components/header/header.js';
+import { stickyHeader } from './components/header/header.js';
 /* Navigation */
 /* Hero */
 /* About */
@@ -20,7 +20,7 @@ import { services } from './components/services/services.js';
 // FUNKCIJU PANAUDOJIMAS
 /* Loading page*/
 /* Header */
-headerScroll();
+stickyHeader();
 /* Navigation */
 /* Hero */
 /* About */
