@@ -5,6 +5,7 @@
 @import "./init/base.css";
 /* 3rd party */
 @import "./3rd-party/font-awesome.min.css";
+@import "./3rd-party/flaticon.css";
 @import "./3rd-party/flaticon/flaticon.css";
 /* components */
 @import "./components/footer.css";
@@ -23,7 +24,73 @@
 /* Services */
 /* Latest project */
 /* Partner section */
+.partner {
+    text-align: center;
+    vertical-align: center;
+}
+.wid img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 991px) {
+.pab50 {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+}
+@media (min-width: 991px) {
+.pt-lg {
+    padding-top: 300px;
+}
+.pb-lg {
+    padding-bottom: 100px;
+}
+}
 /* How we work */
+.works-unit {
+    position: relative;
+    box-sizing: border-box;
+    border: dashed 1px var(--color-blue);
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+    margin: 25px;
+    text-align: center;
+}
+.works-icon  {
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+    font-size: 75px;
+    color: white;
+    text-size-adjust: 100%;
+    background: linear-gradient(135deg, var(--color-blue), var(--color-green));
+    border-radius: 50%;
+    text-align: center;
+    margin: 11px;
+    margin-bottom: 30px;
+}
+.works-hover:hover {
+    background: linear-gradient(135deg, var(--color-blue), var(--color-green));
+    animation: pulse-border 2000ms ease-out infinite;
+}
+/*@keyframes pulse-border {
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.2);
+      opacity: 0;
+    }
+  }*/
+.works-title {
+    color: #666666;
+
+}
+.arrow {
+    margin-top: 30px;
+}
 /* Blog */
 .container.blog h2 {
   text-align: center;
