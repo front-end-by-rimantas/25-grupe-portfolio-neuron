@@ -111,17 +111,32 @@ nav.header-bottom-icons a i:last-of-type {
 /* STICKY HEADER */
 header .header-bottom.sticky {
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
   background: linear-gradient(150deg, var(--color-blue), var(--color-green));
 }
 @media (max-width: 991px) {
     header .header-bottom.sticky  {
     display: none;
+  }
+}
+@media (min-width: 991px) {
+  header .header-bottom.sticky {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+}
+@media (min-width: 1199px) {
+  header .header-bottom.sticky {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
   }
 }
