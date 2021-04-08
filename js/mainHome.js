@@ -1,6 +1,7 @@
 // IMPORT
 /* Loading page*/
 /* Header */
+import { stickyHeader } from './components/header/header.js';
 /* Navigation */
 /* Hero */
 /* About */
@@ -19,6 +20,7 @@ import { services } from './components/services/services.js';
 // FUNKCIJU PANAUDOJIMAS
 /* Loading page*/
 /* Header */
+stickyHeader();
 /* Navigation */
 /* Hero */
 /* About */
