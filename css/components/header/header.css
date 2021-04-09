@@ -15,15 +15,18 @@ header a {
   color: white;
   text-decoration: none;
 }
-header a:visited {
-  color: white;
-}
+
 
 /* HEADER TOP */
 div.row.header-top {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 55px;
+}
+header > .header-top a:hover,
+header > .header-top a i:hover {
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s ease 0s;
 }
 
 /* CONTACTS */
@@ -36,7 +39,7 @@ span i.header-email-icon {
 }
 span i.header-phone-icon {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 10px 0 25px;
 }
 
 /* SOCIAL ICONS */
@@ -86,11 +89,21 @@ nav.menu {
 nav.menu a {
   margin-right: 20px;
 }
+nav.menu a:first-of-type {
+  color: #cccccc;
+}
 nav.small-menu a i {
   position: relative;
   top: -2px;
   margin-right: 8px;
   font-size: 16px;
+}
+header > .header-bottom a:hover {
+  color: #cccccc;
+  transition: all 0.5s ease 0s;
+}
+nav.small-menu a:hover {
+  color: white;
 }
 
 /* SHOPING & SEARCH ICONS */
@@ -104,6 +117,10 @@ nav.header-bottom-icons a i {
   margin: 0 27px;
   font-size: 16px;
 }
+nav.header-bottom-icons a i:hover {
+  transition: all 0.5s ease 0s;
+  color: #666666;;
+}
 nav.header-bottom-icons a i:last-of-type {
   margin-right: 0;
 }
@@ -111,17 +128,32 @@ nav.header-bottom-icons a i:last-of-type {
 /* STICKY HEADER */
 header .header-bottom.sticky {
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
   background: linear-gradient(150deg, var(--color-blue), var(--color-green));
 }
 @media (max-width: 991px) {
     header .header-bottom.sticky  {
     display: none;
+  }
+}
+@media (min-width: 991px) {
+  header .header-bottom.sticky {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+}
+@media (min-width: 1199px) {
+  header .header-bottom.sticky {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
   }
 }

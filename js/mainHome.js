@@ -2,6 +2,7 @@
 /* Loading page*/
 /* Header */
 import { stickyHeader } from './components/header/header.js';
+import { search } from './components/header/search.js';
 /* Navigation */
 /* Hero */
 /* About */
@@ -23,6 +24,7 @@ import { Blog } from './components/blog/Blog.js'
 /* Loading page*/
 /* Header */
 stickyHeader();
+search('#search_btn', '#search_block', '.close-btn');
 /* Navigation */
 /* Hero */
 /* About */

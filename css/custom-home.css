@@ -9,7 +9,8 @@
 @import "./3rd-party/flaticon/flaticon.css";
 /* components */
 @import "./components/footer.css";
-@import "./components/header.css";
+@import "./components/header/header.css";
+@import "./components/header/search.css";
 @import "./components/button.css";
 @import "./components/services-card.css";
 
