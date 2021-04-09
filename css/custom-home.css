@@ -17,20 +17,9 @@
 /* Navigation */
 /* Hero */
 /* About */
-i[class*="flaticon"] {
-    font-size: 80px;
-    color: var(--color-green);
-}
-.container > .row > .cards > .card {
-    background-color: #fff;
-    border-radius: 20px;
-    margin: 20px;
-    padding: 40px;
-}
-.container > .row > .cards:hover > .card{
-    background: linear-gradient(135deg, var(--color-blue), var(--color-green));
-} 
+@import "./components/about.css";
 /* About video */
+@import "./components/about-video.css"
 /* Achievements */
 /* Services */
 /* Latest project */

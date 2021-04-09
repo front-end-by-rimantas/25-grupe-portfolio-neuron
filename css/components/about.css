@@ -1,0 +1,35 @@
+.about-start {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-start .cards-list {
+    background-color: var(--color-lightgrey);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* .paragraph {
+    display: inline-block;
+    float: left;
+} */
+
+.cards-list > .leftColumn {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 40px;
+    padding: 20px;
+}
+.cards-list > .rightColumn {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 40px;
+    padding: 20px;
+}
+.cards-list > .cards > .card:hover {
+    background: linear-gradient(135deg, var(--color-blue), var(--color-green));
+} 
+
+
+i[class*="flaticon"] {
+    font-size: 60px;
+    color: var(--color-green);
+}
