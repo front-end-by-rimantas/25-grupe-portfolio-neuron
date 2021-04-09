@@ -1,35 +1,41 @@
+
 .about-start {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.about-start .cards-list {
-    background-color: var(--color-lightgrey);
+.korteles {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rightColumn {
+    margin-top: 70px;
+}
+
+.paragraph {
+    margin: 50px;
+    margin-top: 90px;
+    text-align: left;
+}
+.pavadinimas {
+    text-align: left;
+}
+
+.about-start .card {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 991px) {.about-start {
     grid-template-columns: 1fr;
 }
-/* .paragraph {
-    display: inline-block;
-    float: left;
-} */
-
-.cards-list > .leftColumn {
-    background-color: #fff;
-    border-radius: 15px;
-    margin: 40px;
-    padding: 20px;
+.paragraph {
+    grid-template-columns:  1fr;
 }
-.cards-list > .rightColumn {
-    background-color: #fff;
-    border-radius: 15px;
-    margin: 40px;
-    padding: 20px;
+.rightColumn {
+    margin: 0;
 }
-.cards-list > .cards > .card:hover {
-    background: linear-gradient(135deg, var(--color-blue), var(--color-green));
-} 
-
-
-i[class*="flaticon"] {
-    font-size: 60px;
-    color: var(--color-green);
+}
+@media (max-width: 765px) { .korteles {
+    grid-template-columns: 1fr;
+    vertical-align: top;
+}
 }
