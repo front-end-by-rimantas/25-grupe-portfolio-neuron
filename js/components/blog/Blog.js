@@ -1,5 +1,7 @@
 class Blog {
   constructor(selector, data) {
+    console.log(selector);
+    console.log(data);
     this.selector = selector;
     this.data = data;
 
@@ -7,6 +9,7 @@ class Blog {
 
     this.init();
   }
+
 
   init() {
     if (!this.isValidSelector()) {
@@ -67,34 +70,11 @@ class Blog {
   render() {
     let HTML = '';
 
-    for (let i = 0; i < this.data.list.length; i++) {
-      let blogCount = 0;
+    // for (let i = 0; i < this.data.list.length; i++) {
+    //   let blogCount = 0;
 
-      if (blogCount < 4) {
-        HTML += `<div class="col-12 col-lg-4 col-md-6 blog-block">
-                <img class='blog-image' src="./img/blog/${item.img}.jpeg" alt="blog image">
-                  <div>
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="tiny-intro">
-                          <p><i class="fa fa-calendar-check-o"></i> ${item.date}</p>
-                          <p><i class="fa fa-user-o"></i> Admin</p>
-                          <p> <span>${item.comment_no}</span> Comments</p>
-                        </div>
-                        <h3><a href="./img/blog/blog-2.jpeg">${item.title}</a></h3>
-                        <p class="main-blog-text">${item.text}</p>
-                        <button class="btn">READ MORE</button>
-                      </div>
-                    </div>
-                  </div>
-            </div>`;
-      } else {
-        break;
-      }
-    }
-
-    // for (const item of this.data.list) {
-    //   HTML += `<div class="col-12 col-lg-4 col-md-6 blog-block">
+    //   if (blogCount < 4) {
+    //     HTML += `<div class="col-12 col-lg-4 col-md-6 blog-block">
     //             <img class='blog-image' src="./img/blog/${item.img}.jpeg" alt="blog image">
     //               <div>
     //                 <div class="row">
@@ -111,7 +91,30 @@ class Blog {
     //                 </div>
     //               </div>
     //         </div>`;
+    //   } else {
+    //     break;
+    //   }
     // }
+
+    for (const item of this.data.list) {
+      HTML += `<div class="col-12 col-lg-4 col-md-6 blog-block">
+                <img class='blog-image' src="./img/blog/${item.img}.jpeg" alt="blog image">
+                  <div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="tiny-intro">
+                          <p><i class="fa fa-calendar-check-o"></i> ${item.date}</p>
+                          <p><i class="fa fa-user-o"></i> Admin</p>
+                          <p> <span>${item.comment_no}</span> Comments</p>
+                        </div>
+                        <h3><a href="./img/blog/blog-2.jpeg">${item.title}</a></h3>
+                        <p class="main-blog-text">${item.text}</p>
+                        <button class="btn">READ MORE</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>`;
+    }
 
     this.DOM.innerHTML = HTML;
   }
