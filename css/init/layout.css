@@ -471,9 +471,9 @@
 
 @media (min-width: 1399px) {
   .container > .row {
-    width: 1320px;
-    margin-left: calc(50% - 660px);
-    margin-right: calc(50% - 660px);
+    width: 1200px;
+    margin-left: calc(50% - 600px);
+    margin-right: calc(50% - 600px);
   }
   .row > .col-xxl-1 {
     width: var(--col1);
