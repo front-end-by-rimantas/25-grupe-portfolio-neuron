@@ -3,7 +3,7 @@
 }
 
 .large-dropdown-menu-pages {
-  /* display: none; */
+  display: none;
   position: absolute;
   background: white;
   line-height: 20px;
@@ -20,6 +20,10 @@
   text-align: left;
   font-size: 14px;
   transition: all 1s ease 0s;
+}
+
+.large-dropdown-pages:hover .large-dropdown-menu-pages{
+  display: block;
 }
 
 .large-dropdown-pages > .large-dropdown-menu-pages > a:hover {
