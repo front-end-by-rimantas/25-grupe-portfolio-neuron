@@ -44,6 +44,13 @@
       padding-bottom: 100px;
   }
   }
+.photos {
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
 /* About */
 /* About video */
 /* Achievements */
