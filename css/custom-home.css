@@ -10,7 +10,9 @@
 @import "./components/footer.css";
 @import "./components/header.css";
 @import "./components/button.css";
+@import "./components/project.css";
 @import "./components/services-card.css";
+@import "./components/about.css";
 
 /* CUSTOM STILIUS SEKCIJOMS */
 /* Loading page*/
