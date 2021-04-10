@@ -1,12 +1,14 @@
 .large-pages-menu, 
 .large-home-menu,
-.large-shop-menu {
+.large-shop-menu,
+.large-blog-menu {
   display: inline-block;
 }
 
 .large-pages-menu #pages-dropdown,
 .large-home-menu #home-dropdown,
-.large-shop-menu #shop-dropdown {
+.large-shop-menu #shop-dropdown,
+.large-blog-menu #blog-dropdown {
   display: none;
   position: absolute;
   background: white;
@@ -16,7 +18,8 @@
 
 .large-pages-menu  #pages-dropdown  a,
 .large-home-menu #home-dropdown a,
-.large-shop-menu #shop-dropdown a {
+.large-shop-menu #shop-dropdown a,
+.large-blog-menu #blog-dropdown a {
   color: black;
   margin: 0;
   padding: 0;
@@ -31,13 +34,15 @@
 
 .large-pages-menu:hover #pages-dropdown,
 .large-home-menu:hover #home-dropdown,
-.large-shop-menu:hover #shop-dropdown {
+.large-shop-menu:hover #shop-dropdown,
+.large-blog-menu:hover #blog-dropdown {
   display: block;
 }
 
 .large-pages-menu  #pages-dropdown  a:hover,
 .large-home-menu #home-dropdown a:hover,
-.large-shop-menu #shop-dropdown a:hover {
+.large-shop-menu #shop-dropdown a:hover,
+.large-blog-menu #blog-dropdown a:hover {
   color: var(--color-blue);
 }
 
