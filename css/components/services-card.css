@@ -1,44 +1,65 @@
-.card-bg-white {
-    background: -webkit-linear-gradient(-90deg, #fff, #fff);
-    transition: all 1s ease;
-}
-.card {  
+.services-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 10px;
+    margin: 0 auto;
+  }
+.services-list > .card {  
     float: left;
     border-radius: 10px;
-    margin: 20px;
+    background-color: #fff;
+    margin: 15px;
     vertical-align: top;
-    padding: 30px 15px;  
-    transition: all 1s ease; 
+    padding: 60px 20px; 
+    position: relative; 
+    box-shadow: 0 10px 10px #5553;
+
 }
-.cardFaIcon {
-    font-size: 60px;
+.services-list > .card > .cardFaIcon {
+    font-size: 70px;
     margin: 0px;
     background: -webkit-linear-gradient(-90deg, #01a0f9, #09c778);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 1s ease;
+
+}
+.services-list > .card > h3 {
+    /* font-style: bold; */
+    font-weight: 600;
 }
 .card-bg-white:hover {
     background: linear-gradient(-41deg, #09c778, #01a0f9);
     color: #fff;
-    transition: all 1s ease;
+
 
 }
 .card-bg-white:hover > .cardFaIcon {
-    font-size: 60px;
+    font-size: 70px;
     background: #fff;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 1s ease;
+ 
 }
 
 .card-bg-white:hover > h3 {
     color: #fff; 
-    transition: all 1s ease; 
+
 
 }
 .card-bg-white:hover > p {
     color: #fff;  
-    transition: all 1s ease;
+
+}
+@media (min-width: 767px) {
+    .services-list {
+      grid-template-columns: 1fr 1fr;
+    }
+}
+  
+  @media (min-width: 991px) {
+    .services-list {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
 }
