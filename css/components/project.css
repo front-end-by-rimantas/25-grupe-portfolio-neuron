@@ -26,6 +26,7 @@
     top: 90%;
     opacity: 1;
     z-index: 1;
+    transition: all 0.7s ease 0s;
 }
 .project-2nd-bg {
     display: inline-block;
