@@ -11,6 +11,7 @@ function services(selector, data) {
         const service = list[i];
 
         HTML += `<div class="card-bg-white card">
+                    <div class="services-bg services-bg2"></div>
                     <i class="${service.faIcon}"></i>
                     <h3>${service.title}</h3>
                     <p>${service.description}</p>
