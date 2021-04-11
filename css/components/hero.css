@@ -3,7 +3,7 @@
   top: -129px;
   z-index: -1;
   padding-bottom: 117px;
-  height: 810px;
+  background-size: cover;
 }
 
 .hero {
@@ -23,11 +23,6 @@
     margin-bottom: 30px;
   }
   
-  /* .container.bg-hero img.robot {
-    height: 485px;
-    width: 290px;
-  } */
-
   @media (max-width: 767px) {
   .hide {
     display: none;
@@ -62,17 +57,9 @@
   .photos {
     display: inline-block;
     width: 100%;
-    max-width: 210px;
+    max-width: 220px;
     height: auto;
   }
-  .robot {
-    height: 485px;
-    width: 290px;
-  }
-  /* .human {
-    height: 366px;
-    width: 300px;
-  } */
   }
   
   .pt50 {
