@@ -30,7 +30,8 @@
 
 /* Background colors */
 .bg-hero {
-    background-image: url(../../img/backgrounds/header_bg.jpg)
+    background-image: url(../../img/backgrounds/header_bg.jpg);
+    background-repeat: no-repeat;
 }
 .bg-grey {
     background-color: var(--color-lightgrey); /* for services and blog */
