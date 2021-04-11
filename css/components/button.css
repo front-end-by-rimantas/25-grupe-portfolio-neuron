@@ -30,6 +30,12 @@
     cursor: pointer;
     user-select: none;
 }
+@media (max-width: 767px) {
+    .btn-learn {
+        padding: 7px 20px;
+        font-size: 13px;
+    }
+}
 .btn-learn:hover {
     background-color: transparent;
     color: #fff;
@@ -48,6 +54,12 @@
     border: 1px solid #fff;
     cursor: pointer;
     user-select: none;
+}
+@media (max-width: 767px) {
+    .btn-join {
+        padding: 7px 23px;
+        font-size: 13px;
+    }
 }
 .btn-join:hover {
     background-color: #fff;
