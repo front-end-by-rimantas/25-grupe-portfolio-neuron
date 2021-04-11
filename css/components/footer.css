@@ -37,6 +37,10 @@ ul {
     padding: 0;
 }
 
+.footer-upper ul li {
+    padding: 0 0 7px;
+}
+
 ul:hover {
     color: var(--color-green);
     transition: 0.3s;
@@ -70,3 +74,31 @@ footer a:hover {
     transition: 0.3s;
     background-color: transparent;
 }
+
+.upper-text {
+    margin-bottom: 20px;
+}
+
+.footer-socials {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.footer-socials li {
+    display: inline-block;
+}
+
+.footer-socials li a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background-color: #01a0f9;
+    color: #fff;
+    border-radius: 25px;
+    margin-right: 15px;
+    padding-top: 12px;
+}
+
+
+
