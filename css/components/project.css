@@ -10,37 +10,49 @@
     float: left;
     width: 350px;
     height: 370px;
-    vertical-align: top;
+    vertical-align: middle;
     border-radius:  5px;
-    position: flex;
-
-
+    position: relative;
+    overflow: inherit;
 }
-.project-bg1 {
-    background: url('../../img/project/1.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.project-bg2 {
-    background: url('../../img/project/3.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+.project-img {
+    width: 100%;   
 }
 .project-cards > .project-card > a {
     display: none;
     font-size: 20px;
     font-weight: 700;
     position: absolute;
-
     top: 90%;
-    z-index: 20;
+    opacity: 1;
+    z-index: 1;
+}
+.project-2nd-bg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    background: linear-gradient( #fff, #fff);
+    transition: all 0.7s;
+    border-radius: inherit;
+}
+.project-2nd-bg2 {
+    opacity: 0;
+    background: linear-gradient(-41deg, #09c778, #01a0f9);
+}
+.project-card:hover > .project-2nd-bg2 {
+    opacity: 0.7;
+    z-index: 1;
 }
 .project-cards > .project-card:hover > a {
     display: block;
-    position: relative;
+    position: absolute;
     margin-left: 30px;
     color: #fff;
-
+    text-decoration: none;
 }
 .project-cards > .project-card > a:hover {
     color: #000;
