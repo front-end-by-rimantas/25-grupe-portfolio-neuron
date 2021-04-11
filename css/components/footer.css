@@ -40,6 +40,7 @@ ul {
 ul:hover {
     color: var(--color-green);
     transition: 0.3s;
+    background-color: transparent;
 }
 
 .footer-column {
@@ -50,5 +51,22 @@ ul:hover {
 
 .footer-lower {
     padding: 24px 0;
-    border-top: 1px solid #e3e5ea;
+    border-top: 1px solid #e3e5ea;    
+}
+footer a:link {
+    color: #666666;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #666666;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--color-blue);
+    transition: 0.3s;
+    background-color: transparent;
 }
