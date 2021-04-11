@@ -1,0 +1,54 @@
+.copyrights {
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 40px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.footer-title::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
+    bottom: 6px;
+    left: 1px;
+    z-index: -1;
+}
+
+.footer-about-logo {
+    margin-bottom: 40px;
+}
+
+.footer-upper {
+    padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+ul:hover {
+    color: var(--color-green);
+    transition: 0.3s;
+}
+
+.footer-column {
+    max-width: 400px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.footer-lower {
+    padding: 24px 0;
+    border-top: 1px solid #e3e5ea;
+}
