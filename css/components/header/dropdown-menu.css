@@ -1,0 +1,67 @@
+.large-pages-menu, 
+.large-home-menu,
+.large-shop-menu,
+.large-blog-menu {
+  display: inline-block;
+}
+
+.large-pages-menu #pages-dropdown,
+.large-home-menu #home-dropdown,
+.large-shop-menu #shop-dropdown,
+.large-blog-menu #blog-dropdown {
+  display: none;
+  position: absolute;
+  background: white;
+  line-height: 20px;
+  box-shadow: 0px 5px 30px rgba(0,0,0,0.1);
+}
+
+.large-pages-menu  #pages-dropdown  a,
+.large-home-menu #home-dropdown a,
+.large-shop-menu #shop-dropdown a,
+.large-blog-menu #blog-dropdown a {
+  color: black;
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin: 20px;
+  margin-left: 25px;
+  text-align: left;
+  font-size: 14px;
+  transition: all 1s ease 0s;
+  width: 170px;
+}
+
+.large-pages-menu:hover #pages-dropdown,
+.large-home-menu:hover #home-dropdown,
+.large-shop-menu:hover #shop-dropdown,
+.large-blog-menu:hover #blog-dropdown {
+  display: block;
+}
+
+.large-pages-menu  #pages-dropdown  a:hover,
+.large-home-menu #home-dropdown a:hover,
+.large-shop-menu #shop-dropdown a:hover,
+.large-blog-menu #blog-dropdown a:hover {
+  color: var(--color-blue);
+}
+
+/* CUSTOM */
+
+/* large home dropdown */
+.large-home-menu #home-dropdown a:first-of-type {
+  color: var(--color-blue);
+}
+.large-pages-menu  #pages-dropdown  a {
+width: 130px;
+}
+
+/* large pages dropdown */
+.large-pages-menu #pages-dropdown {
+transform: translate(-40%, 0%);
+  width: 525px;
+}
+.large-pages-menu #pages-dropdown div {
+  display: inline-block;
+  float: left;
+}
