@@ -10,17 +10,22 @@
     background-color: #fff;
     border-radius: 5px;
     margin-top: -100px; 
-    margin-right: 20px;
     padding: 35px 50px 70px;
 }
 
-::placeholder {
+.contact-form .form-field input::placeholder {
     color: #fff;
     opacity: 1;
     font-size: 15px;
 }
 
-.neuron-contact .row {
+textarea::placeholder {
+    color: #fff;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.contact-form .row {
     margin-left: -15px;
     margin-right: -15px
 }
