@@ -30,7 +30,8 @@
 
 /* Background colors */
 .bg-hero {
-    background-image: url(../../img/backgrounds/header_bg.jpg)
+    background-image: url(../../img/backgrounds/header_bg.jpg);
+    background-repeat: no-repeat;
 }
 .bg-grey {
     background-color: var(--color-lightgrey); /* for services and blog */
@@ -42,7 +43,9 @@
     background: linear-gradient(var(--color-blue), var(--color-green))
 }
 .bg-partner {
-    background-image: url(../../img/backgrounds/partner-bg.jpg)
+    background-image: url(../../img/backgrounds/partner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bg-contact {
     background-image: url(../../img/backgrounds/contact-bg.jpg);
@@ -66,6 +69,7 @@
     background-size: 108px 8px;
     background-position: center 23px;
     z-index: -1;
+    text-align: center;
 }
 .bg-title-left {
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
@@ -73,6 +77,7 @@
     background-size: 108px 8px;
     background-position: left 23px;
     z-index: -1;
+    text-align: center;
 }
 /* margins */
 .mb26 {

@@ -1,0 +1,22 @@
+.partner {
+    text-align: center;
+    vertical-align: center;
+}
+.wid img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 991px) {
+.pab50 {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+}
+@media (min-width: 991px) {
+.pt-lg {
+    padding-top: 300px;
+}
+.pb-lg {
+    padding-bottom: 100px;
+}
+}

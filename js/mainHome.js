@@ -1,6 +1,8 @@
 // IMPORT
 /* Loading page*/
 /* Header */
+import { stickyHeader } from './components/header/header.js';
+import { search } from './components/header/search.js';
 /* Navigation */
 /* Hero */
 /* About */
@@ -19,6 +21,8 @@ import { services } from './components/services/services.js';
 // FUNKCIJU PANAUDOJIMAS
 /* Loading page*/
 /* Header */
+stickyHeader();
+search('#search_btn', '#search_block', '.close-btn');
 /* Navigation */
 /* Hero */
 /* About */
