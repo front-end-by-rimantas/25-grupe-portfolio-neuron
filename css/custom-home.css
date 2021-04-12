@@ -32,13 +32,16 @@
 /* How we work */
 @import "./components/works-section.css";
 /* Blog */
+.container.blog {
+  padding-bottom: 130px;
+}
 .container.blog h2 {
   text-align: center;
   margin: 50px 0 30px;
 }
 .blog-block{
   background-color: white;
-  margin-bottom: 150px;
+  margin-bottom: 30px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
 }
 .blog-image {
