@@ -5,12 +5,17 @@
 @import "./init/base.css";
 /* 3rd party */
 @import "./3rd-party/font-awesome.min.css";
+@import "./3rd-party/flaticon.css";
+@import "./3rd-party/flaticon/flaticon.css";
 /* components */
 @import "./components/footer.css";
-@import "./components/header.css";
+@import "./components/header/header.css";
+@import "./components/header/search.css";
+@import "./components/header/dropdown-menu.css";
 @import "./components/button.css";
+@import "./components/project.css";
 @import "./components/services-card.css";
-@import "./components/contactUs.css";
+@import "./components/hero.css";
 
 /* CUSTOM STILIUS SEKCIJOMS */
 /* Loading page*/
@@ -23,10 +28,11 @@
 /* Services */
 /* Latest project */
 /* Partner section */
+@import "./components/partner.css";
 /* How we work */
+@import "./components/works-section.css";
 /* Blog */
-
-/* .container.blog h2 {
+.container.blog h2 {
   text-align: center;
   margin: 60px 0 30px;
   font-weight: 600;
@@ -76,7 +82,7 @@
 }
 .container.blog .btn {
   margin-bottom: 25px;
-} */
+}
 
 /* Contacts */
 
