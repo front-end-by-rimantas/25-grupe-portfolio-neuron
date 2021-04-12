@@ -16,6 +16,7 @@
 @import "./components/project.css";
 @import "./components/services-card.css";
 @import "./components/hero.css";
+@import "./components/contactUs.css";
 
 /* CUSTOM STILIUS SEKCIJOMS */
 /* Loading page*/
@@ -85,5 +86,4 @@
 }
 
 /* Contacts */
-
 /* Footer */
