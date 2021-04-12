@@ -16,8 +16,6 @@ footer {
 }
 
 .footer-title::after {
-    content: "";
-    position: absolute;
     width: 70px;
     height: 5px;
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
