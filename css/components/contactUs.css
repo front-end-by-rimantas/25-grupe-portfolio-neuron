@@ -5,8 +5,8 @@
 .contactUs {
     background-color: #fff;
     border-radius: 5px;
-    margin-top: -75px;
-    margin-right: 20px;    
+    margin-top: -75px; 
+    margin-right: 20px;
     padding: 45px 50px 50px;
 }
 
@@ -24,6 +24,7 @@
 .contact-form {
     width: 100%;
     height: 100%;
+    display: inline-block;
 }
 
 .contact-form .form-field input {
@@ -85,9 +86,9 @@ color: #ffffff;
 .contact-bg-left {    
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
     background-repeat: no-repeat;
-    background-size: 160px 8px;
-    background-position: left 40px;
-    background-position: top 20px;
+    background-size: 108px 8px;
+    background-position:  0 75%;
+    z-index: -1;
 }
 
 .contactUs a:link {
@@ -100,4 +101,18 @@ color: #ffffff;
     background-color: #fff;
     color: var(--color-green);
     transition: 0.5s;
+}
+
+.contact-icons {
+    padding-top: 30px;
+}
+
+.icon-part {
+    width: 40px;
+    height: 80px;
+    display: inline-block;
+}
+
+.text-part {
+    display: inline-block;
 }
