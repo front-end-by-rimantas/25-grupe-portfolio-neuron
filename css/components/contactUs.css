@@ -90,13 +90,13 @@ color: #ffffff;
     background-position: top 20px;
 }
 
-a:link {
+.contactUs a:link {
     color: #666666;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:hover {
+.contactUs a:hover {
     background-color: #fff;
     color: var(--color-green);
     transition: 0.5s;
