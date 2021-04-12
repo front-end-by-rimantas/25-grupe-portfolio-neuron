@@ -6,9 +6,10 @@ header.container * {
   font-weight: normal;
   vertical-align: middle;
 }
-/* header.container {
-  background: linear-gradient(150deg, var(--color-blue), var(--color-green));
-} */
+header.container {
+  z-index: 1;
+  position: relative;
+}
 
 /* ALL LINKS */
 header a {
