@@ -9,6 +9,7 @@ header.container * {
 header.container {
   z-index: 1;
   position: relative;
+  /* background-color: aquamarine; */
 }
 
 /* ALL LINKS */
@@ -115,7 +116,7 @@ nav.header-bottom-icons {
 nav.header-bottom-icons a i {
   position: relative;
   top: -4px;
-  margin: 0 27px;
+  margin: 0 20px;
   font-size: 16px;
 }
 nav.header-bottom-icons a i:hover {
