@@ -49,9 +49,13 @@
 }
 .bg-contact {
     background-image: url(../../img/backgrounds/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bg-footer {
     background-image: url(../../img/backgrounds/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* text align */
