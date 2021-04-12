@@ -6,9 +6,9 @@ header.container * {
   font-weight: normal;
   vertical-align: middle;
 }
-header.container {
+/* header.container {
   background: linear-gradient(150deg, var(--color-blue), var(--color-green));
-}
+} */
 
 /* ALL LINKS */
 header a {
@@ -89,7 +89,7 @@ nav.menu {
 nav.menu a {
   margin-right: 20px;
 }
-nav.menu a:first-of-type {
+nav.menu a.home {
   color: #cccccc;
 }
 nav.small-menu a i {

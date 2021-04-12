@@ -10,7 +10,8 @@ function services(selector, data) {
     for (let i = 0; i < list.length; i++) {
         const service = list[i];
 
-        HTML += `<div class="col-sm-12 col-md-6 col-lg-4 card-bg-white card">
+        HTML += `<div class="card-bg-white card">
+                    <div class="services-bg services-bg2"></div>
                     <i class="${service.faIcon}"></i>
                     <h3>${service.title}</h3>
                     <p>${service.description}</p>

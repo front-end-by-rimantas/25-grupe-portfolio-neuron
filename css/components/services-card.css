@@ -1,44 +1,81 @@
-.card-bg-white {
-    background: -webkit-linear-gradient(-90deg, #fff, #fff);
-    transition: all 1s ease;
-}
+.services-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 10px;
+    margin: 0 auto; 
+  }
 .card {  
     float: left;
     border-radius: 10px;
-    margin: 20px;
+    margin: 15px;
     vertical-align: top;
-    padding: 30px 15px;  
-    transition: all 1s ease; 
+    background-color: #fff;
+    padding: 60px 20px; 
+    position: relative; 
+    box-shadow: 5px 15px 15px #5553;   
+}
+.services-bg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    background: linear-gradient( #fff, #fff);
+    transition: all 0.7s;
+    border-radius: inherit;
+}
+.services-bg2 {
+    opacity: 0;
+    background: linear-gradient(-41deg, #09c778, #01a0f9);
+}
+.card:hover > .services-bg2 {
+    opacity: 1;
 }
 .cardFaIcon {
-    font-size: 60px;
+    font-size: 70px;
     margin: 0px;
     background: -webkit-linear-gradient(-90deg, #01a0f9, #09c778);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 1s ease;
+    position: relative;
 }
-.card-bg-white:hover {
-    background: linear-gradient(-41deg, #09c778, #01a0f9);
-    color: #fff;
-    transition: all 1s ease;
-
+.card > h3 {
+    font-weight: 600;
+    position: relative;
 }
-.card-bg-white:hover > .cardFaIcon {
-    font-size: 60px;
+.card > p {
+    position: relative;
+}
+.card:hover > .cardFaIcon {
+    font-size: 70px;
     background: #fff;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 1s ease;
+    position: relative;
+    transition: all 0.7s;
 }
 
-.card-bg-white:hover > h3 {
-    color: #fff; 
-    transition: all 1s ease; 
-
+.card:hover > h3 {
+    color: #fff;
+    transition: all 0.7s; 
 }
-.card-bg-white:hover > p {
-    color: #fff;  
-    transition: all 1s ease;
+.card:hover > p {
+    color: #fff;
+    position: relative;
+    transition: all 0.7s;  
+}
+@media (min-width: 767px) {
+    .services-list {
+      grid-template-columns: 1fr 1fr;
+    }
+}
+  
+  @media (min-width: 991px) {
+    .services-list {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
 }

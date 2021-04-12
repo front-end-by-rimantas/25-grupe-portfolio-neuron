@@ -51,12 +51,64 @@
             <div class="row col-6 col-lg-9 header-bottom-right">
 
                 <nav class="menu hidden visible-lg">
-                    <a href="#">HOME</a>
+                    <div class="large-home-menu">
+                        <a class="home" href="#">HOME</a>
+                        <div id="home-dropdown">
+                            <a href="#">Home One</a>
+                            <a href="#">Home Two</a>
+                            <a href="#">Home Three</a>
+                        </div>
+                    </div>
+
+
                     <a href="#">ABOUT</a>
                     <a href="#">FEATURES</a>
-                    <a href="#">PAGES</a>
-                    <a href="#">SHOP</a>
-                    <a href="#">BLOG</a>
+
+                    <div class="large-pages-menu">
+                        <a id="pages_btn" href="#">PAGES</a>
+                        <div id="pages-dropdown">
+                            <div>
+                                <a href="#">Software Demo</a>
+                                <a href="#">Mobile App</a>
+                                <a href="#">Team Page</a>
+                                <a href="#">Privicy Policy Page</a>
+                            </div>
+                            <div>
+                                <a href="#">Pricing Plan</a>
+                                <a href="#">ChatBot</a>
+                                <a href="#">Login</a>
+                                <a href="#">Register</a>
+                            </div>
+                            <div>
+                                <a href="#">Download</a>
+                                <a href="#">Coming Soon</a>
+                                <a href="#">404 Error</a>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="large-shop-menu">
+                        <a href="#">SHOP</a>
+                        <div id="shop-dropdown">
+                            <a href="#">Shop</a>
+                            <a href="#">Shop Single</a>
+                            <a href="#">Cart</a>
+                            <a href="#">Checkout</a>
+                        </div>
+                    </div>
+
+                    <div class="large-blog-menu">
+                        <a href="#">BLOG</a>
+                        <div id="blog-dropdown">
+                            <a href="#">Blog</a>
+                            <a href="#">Blog Left Sidebar</a>
+                            <a href="#">Blog Right Sidebar</a>
+                            <a href="#">Blog Details</a>
+                        </div>
+                    </div>
+
                     <a href="#">CONTACT</a>
                 </nav>
 
@@ -85,13 +137,19 @@
     <!-- HEADER END -->
 
     <!-- Hero START -->
-    <div class="container">
+    <div class="container bg-hero pt-hero-small pt-hero-large">
         <div class="row">
-            <div>
-                TEXT
+            <div class="col-10 col-md-8 col-lg-6">
+                <h1 class="text1">AI & Machine learning Products Creators</h1>
+                <p class="text2">Innovative machine learning products and services on a trusted platform.</p>
+                <a class="btn-learn" href="#">LEARN MORE</a>
+                <a class="btn-join" href="#">JOIN NOW</a>
             </div>
-            <div>
-                IMAGE
+            <div class="hidden visible-md col-md-4 col-lg-6">
+                <div>
+                    <img class="photos" src="./img/hero/robot.png" alt="#">
+                    <img class="photos pt50" src="./img/hero/guys.png" alt="#">
+                </div>
             </div>
         </div>
     </div>
@@ -139,7 +197,7 @@
             <div class="col12">
                 <h2 class="bg-title-center mb26">Our Care services</h2>
             </div>
-            <div id="services_block" class="row">
+            <div id="services_block" class="row services-list">
             </div>
         </div>
     </div>
@@ -147,16 +205,30 @@
 
     <!-- Latest project START -->
     <div class="container">
-        <div class="row">
-            <div>
-                TITLE
+        <div class="row center col12">
+                <h2 class="bg-title-center mb26">Our Latest Project</h2>
+        </div>
+        <div class="row col12">
+            <div class="project-cards">
+                <div class="project-card project-bg1">
+                    <div class="project-2nd-bg project-2nd-bg2"></div>
+                    <img class="project-img" src="./img/project/1.jpg" alt="">
+                    <a href="#">Vocal avatar API</a>
+                </div>
+                <div class="project-card project-bg1">
+                    <div class="project-2nd-bg project-2nd-bg2"></div>
+                    <img class="project-img" src="./img/project/1.jpg" alt="">
+                    <a href="#">Vocal avatar API</a>
+                </div>
+                <div class="project-card project-bg2">
+                    <div class="project-2nd-bg project-2nd-bg2"></div>
+                    <img class="project-img" src="./img/project/3.jpg" alt="">
+                    <a href="#">Vocal avatar API</a>
+                </div>
+
             </div>
         </div>
-        <div class="row">
-            <div>
-                CAROUSEL
-            </div>
-        </div>
+    </div>
         <div class="row">
             <div>
                 SUBSCRIPTION FORM
