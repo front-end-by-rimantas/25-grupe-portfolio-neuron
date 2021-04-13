@@ -24,7 +24,7 @@ const headerData = {
       {
         type: 'link',
         href: '#',
-        icon_class: 'fa-google-plus'
+        icon_class: 'fa fa-google-plus'
       },
       {
         type: 'link',
