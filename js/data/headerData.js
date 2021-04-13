@@ -45,7 +45,7 @@ const headerData = {
   },
   nav: [
     {
-      type: 'link',
+      type: 'text',
       href: '#',
       text: 'HOME',
       submenu: [

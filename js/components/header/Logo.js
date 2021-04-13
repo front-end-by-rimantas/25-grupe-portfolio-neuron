@@ -1,5 +1,6 @@
 class Logo {
   constructor(DOM, data) {
+    console.log(data);
     this.DOM = DOM;
     this.data = data;
 

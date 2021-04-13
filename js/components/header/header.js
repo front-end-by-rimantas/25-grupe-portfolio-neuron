@@ -1,7 +1,7 @@
 import { TopLeftText } from './TopLeftText.js';
 import { TopRightIcons } from './TopRightIcons.js';
 import { Logo } from './Logo.js';
-import { Nav } from './Nav.js';
+// import { Nav } from './Nav.js';
 
 
 class Header {
@@ -54,7 +54,7 @@ class Header {
                       <div class="col-12"><hr></div></div></div>
                   <div class="row header-bottom col-12" id='header-bottom'>
                   <div class="col-6 col-lg-3 hd"></div>
-                  <div class="row col-6 col-lg-9 header-bottom-right hd"><nav class="menu hidden visible-lg"></nav></div></div>`;
+                  <div class="row col-6 col-lg-9 header-bottom-right hd"></div></div>`;
     this.DOM.innerHTML = HTML;
 
     const allColsDOM = this.DOM.querySelectorAll('.hd');
@@ -62,7 +62,7 @@ class Header {
     new TopLeftText(allColsDOM[0], this.data.topText.content[0]);
     new TopRightIcons(allColsDOM[1], this.data.topText.content[1]);
     new Logo(allColsDOM[2], this.data.logo);
-    new Nav(allColsDOM[3], this.data.nav);
+    // new Nav(allColsDOM[3], this.data.nav);
   }
 }
 

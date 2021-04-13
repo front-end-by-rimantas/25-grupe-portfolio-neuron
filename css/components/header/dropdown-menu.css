@@ -108,7 +108,3 @@ transform: translate(-40%, 0%);
     margin-right: calc(50% - 360px);
   }
 }
-
-.submenu {
-  display: none;
-}
