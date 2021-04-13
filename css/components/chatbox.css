@@ -1,0 +1,97 @@
+.chat-popup {
+    display:none;
+    /*!!! Jei footer h4 position ne relative, tada jis neužlipa ant chatbox, bet tada dingsta h4 background, nes jo position yra absolute !!!*/
+    position: fixed; 
+    bottom: 150px;
+    right: 50px;
+    width: 315px;
+}
+
+.chat-area {
+    background-color: #fff;
+    width: 100%;
+    padding: 80px 35px 60px;
+}
+
+.chat-popup .chat-upper-text {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.chat-popup .chat-lower-text {
+    text-align: center;
+}
+
+.chatbox-header {
+    padding: 15px;
+    background: linear-gradient(135deg, #01a0f9, #09c778);
+}
+
+.chatbox-header-left {
+    display: inline-block;
+}
+
+.chatbox-header-right {
+    display: inline-block;
+    margin-left: 120px;
+    padding-top: 7px;
+}
+
+.avatar {
+    display: inline-block;
+    position: relative;
+}
+
+.active-icon {
+    background-color: red;
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    border-radius: 100%;
+    bottom: 2px;
+    right: 2px;
+}
+
+.chatbot-text {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.chatbot-text > p {
+    color: #fff;
+}
+
+.chatbot-upper {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.chatbot-lower {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.flaticon-error:before {
+    color: #fff;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+.flaticon-chat {
+    color: #fff;
+}
+
+.start-chat-container {
+    background-color: #fff;
+}
+
+.show {
+    display: inline;
+}
+
+.close {
+    display: none;
+}
+
+/* išjungus su X, chatbox nebeatsidaro */
