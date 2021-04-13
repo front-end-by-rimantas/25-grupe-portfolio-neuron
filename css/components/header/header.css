@@ -84,14 +84,17 @@ div.header-bottom-right {
 }
 
 /* MENU */
-nav.menu {
+.menu {
   display: inline-block;
   text-align: right;
+}
+.menu > div {
+  display: inline-block;
 }
 nav.menu a {
   margin-right: 20px;
 }
-nav.menu a.home {
+nav.menu div:first-child a {
   color: #cccccc;
 }
 nav.small-menu a i {
