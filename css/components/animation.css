@@ -9,7 +9,7 @@
   }
 
   .l-animation {
-    animation: l-animation 0.5s infinite alternate;
+    animation: l-animation 0.7s infinite alternate;
   }
   @keyframes l-animation {
     from {transform: scale(1);}
