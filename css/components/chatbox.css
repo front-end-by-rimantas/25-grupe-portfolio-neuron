@@ -73,10 +73,14 @@
     font-weight: 500;
 }
 
-.flaticon-error:before {
+.flaticon-error {
     color: #fff;
     font-size: 30px;
     transition: all 0.5s;
+}
+
+.flaticon-error:Hover {
+    color: black;
 }
 
 .flaticon-chat {
