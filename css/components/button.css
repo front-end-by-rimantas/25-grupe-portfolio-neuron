@@ -113,20 +113,20 @@
 }
 
 .start-chat-btn {
+    width: 90%;
     display: inline-block;
-    padding: 15px;
-    margin: 20px;
+    padding: 10px;
+    margin: 20px 10px 15px 15px;
     background: linear-gradient(150deg, var(--color-blue), var(--color-green));
     color: #fff;
     border-radius: 30px;
-    line-height: 20px;
+    line-height: 30px;
     font-size: 16px;
     text-decoration: none;
     border: none;
     cursor: pointer;
     user-select: none;
     text-transform: uppercase;
-    width: 85%;
     vertical-align: middle;
     outline: none;
 }
