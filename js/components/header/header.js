@@ -54,10 +54,14 @@ class Header {
                       </div><div class="col-md-5 col-lg-6 hd header-social-icons"></div>
                       <div class="col-12"><hr></div></div></div>
                   <div class="row header-bottom col-12" id='header-bottom'>
-                  <div class="col-6 col-lg-3 hd"></div>
-                  <div class="row col-6 col-lg-9 header-bottom-right hd">
-                    <nav class="menu hidden visible-lg"></nav>
-                    <nav class="header-bottom-icons hd"></nav></div></div>`;
+                    <div class="col-6 col-lg-3 hd"></div>
+                    <div class="row col-6 col-lg-9 header-bottom-right hd">
+                      <nav class="menu hidden visible-lg"></nav>
+                      <nav class="header-bottom-icons hd"></nav>
+                      </div>
+                      <div id="search_block" class="search-block search-on">
+                        <form><input type="text" placeholder="Searching..."></form>
+                      <div class="close-btn"><i class="flaticon-cross-out"></i></div></div></div>`;
     this.DOM.innerHTML = HTML;
 
     const allColsDOM = this.DOM.querySelectorAll('.hd');
