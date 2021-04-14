@@ -5,6 +5,7 @@
     bottom: 150px;
     right: 50px;
     width: 315px;
+    z-index: 1;
 }
 
 .chat-area {

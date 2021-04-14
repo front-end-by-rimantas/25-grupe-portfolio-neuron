@@ -105,6 +105,7 @@
     user-select: none;
     outline: none;
     transition: 0.5s;
+    z-index: 1;
 }
 
 .btn-chatbox:hover {
@@ -127,6 +128,14 @@
     text-transform: uppercase;
     width: 85%;
     vertical-align: middle;
+    outline: none;
+}
+
+.start-chat-btn:hover {
+    cursor: pointer;
+    color: black;
+
+    /* reikia pakeisti black į atitinkamą efektą */
 }
 
 .close-chat-btn {
