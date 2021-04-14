@@ -79,37 +79,11 @@ div.header-bottom-right {
 }
 
 /* LOGO */
-.header-logo {
+header .logo {
   display: inline-block;
+  cursor: pointer;
 }
 
-/* MENU */
-.menu {
-  display: inline-block;
-  text-align: right;
-}
-.menu > div {
-  display: inline-block;
-}
-nav.menu a {
-  margin-right: 20px;
-}
-nav.menu div:first-child a {
-  color: #cccccc;
-}
-nav.small-menu a i {
-  position: relative;
-  top: -2px;
-  margin-right: 8px;
-  font-size: 16px;
-}
-header > .header-bottom a:hover {
-  color: #cccccc;
-  transition: all 0.5s ease 0s;
-}
-nav.small-menu a:hover {
-  color: white;
-}
 
 /* SHOPING & SEARCH ICONS */
 nav.header-bottom-icons {
