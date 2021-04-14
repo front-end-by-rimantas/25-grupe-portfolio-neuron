@@ -5,7 +5,7 @@ import { Header } from './components/header/Header.js';
 import { headerData } from './data/headerData.js';
 import { stickyHeader } from './components/header/stickyHeader.js';
 import { search } from './components/header/search.js';
-// import { sDropdownMenu } from './components/header/sDropdownMenu.js';
+import { sDropdownMenu } from './components/header/sDropdownMenu.js';
 /* Navigation */
 /* Hero */
 /* About */
@@ -25,7 +25,7 @@ import { services } from './components/services/services.js';
 /* Loading page*/
 /* Header */
 new Header('#main_header', headerData);
-// sDropdownMenu();
+sDropdownMenu();
 window.onscroll = function () { stickyHeader() };
 search('#search_btn', '#search_block', '.close-btn');
 /* Navigation */

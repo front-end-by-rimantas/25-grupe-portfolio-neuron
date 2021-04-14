@@ -58,7 +58,17 @@ class Header {
                     <div class="row col-6 col-lg-9 header-bottom-right hd">
                       <nav class="menu hidden visible-lg"></nav>
                       <nav class="small-menu visible hidden-lg">
-                    <a id="s_menu_btn" href="#"><i class="fa fa-bars"></i>MENU</a></nav>
+                        <a id="s_menu_btn" href="#"><i class="fa fa-bars"></i>MENU</a>
+                        <div id="small-menu-block" class="miau small-menu-dropdown col-12">
+                            <div><a href="#">HOME</a><span><i class="fa fa-angle-down"></i></span></div>
+                            <div><a href="#">ABOUT</a></div>
+                            <div><a href="#">FEATURES</a></div>
+                            <div><a href="#">PAGES</a><span><i class="fa fa-angle-down"></i></span></div>
+                            <div><a href="#">SHOP</a><span><i class="fa fa-angle-down"></i></span></div>
+                            <div><a href="#">BLOG</a><span><i class="fa fa-angle-down"></i></span></div>
+                            <div><a href="#">CONTACT</a></div>
+                        </div>
+                        </nav>
                       <nav class="header-bottom-icons hd"></nav>
                       </div>
                       <div id="search_block" class="search-block search-on">

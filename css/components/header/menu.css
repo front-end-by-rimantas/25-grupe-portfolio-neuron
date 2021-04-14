@@ -48,10 +48,11 @@ header .submenu {
   width: auto;
   box-shadow: 0px 5px 30px rgba(0,0,0,0.1);
   text-align: left;
-  max-height: 200px;
-  flex-wrap: wrap;
+  /* max-height: 200px;
+  flex-wrap: wrap; */
   padding: 10px;
 }
+
 
 header .submenu a.item {
   color: black;
@@ -78,16 +79,11 @@ nav.small-menu a i {
   top: -2px;
   margin-right: 8px;
   font-size: 16px;
-} */
+} 
 
 
-
-
-
-
-/* small menu */
 .small-menu .small-menu-dropdown {
-  /* display: block; */
+  display: none;
   width: calc(100% - 30px);
   margin: 0 15px;
   background: #5ec879;
@@ -100,6 +96,7 @@ nav.small-menu a i {
   text-align: left;
   padding-left: 20px;
 }
+
 .small-menu .small-menu-dropdown span {
   background: #4DAF9D;
   float: right;
@@ -107,6 +104,9 @@ nav.small-menu a i {
   text-align: center;
   cursor: pointer;
 }
+
+
+
 
 /* small menu responsive */
 @media (min-width: 575px) {
@@ -123,3 +123,5 @@ nav.small-menu a i {
     margin-right: calc(50% - 360px);
   }
 }
+
+
