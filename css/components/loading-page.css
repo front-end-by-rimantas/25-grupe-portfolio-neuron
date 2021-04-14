@@ -1,14 +1,19 @@
-.loading-p {
+.loading {
+    position: fixed;
     background-image: linear-gradient(320deg, #09c778, #01a0f9);
     height: 100%;
     width: 100%;
-    position: fixed;
-    z-index: 1;
-    margin-top: 0px;
-    top: 0px;
-    z-index: 999999;
+    z-index: 99;
   }
-
+.loading.hidden {
+  animation: fadeOut 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+  100% {opacity: 0;
+  visibility: hidden;}
+}
 .load-img {
     position: absolute;
     top: 50%;
