@@ -81,7 +81,7 @@
     background-size: 108px 8px;
     background-position: left 23px;
     z-index: -1;
-    text-align: center;
+    text-align: left;
 }
 /* margins */
 .mb26 {
@@ -116,8 +116,12 @@ h2 {
         font-size: 18px;
     }
     .bg-title-center {
-        background-size: 150px 10px;
-        background-position: center 18px;
+        background-size: 140px 10px;
+        background-position: center 28px;
+    }
+    .bg-title-left {
+        background-size: 140px 10px;
+        background-position: left 28px;
     }
 }
 @media (min-width: 575px) {    
@@ -131,14 +135,22 @@ h2 {
         font-size: 18px;
     }
     .bg-title-center {
-        background-size: 135px 8px;
-        background-position: center 24px;
+        background-size: 140px 9px;
+        background-position: center 29px;
+    }
+    .bg-title-left {
+        background-size: 140px 9px;
+        background-position: left 29px;
     }
 }
 @media (min-width: 767px) {
     .bg-title-center {
-        background-size: 100px 8px;
-        background-position: center 26px;
+        background-size: 110px 9px;
+        background-position: center 29px;
+    }
+    .bg-title-left {
+        background-size: 110px 9px;
+        background-position: left 29px;
     }
 }
 @media (min-width: 991px) {
@@ -152,8 +164,12 @@ h2 {
         font-size: 20px;
     }
     .bg-title-center {
-        background-size: 108px 8px;
+        background-size: 120px 9px;
         background-position: center 29px;
+    }
+    .bg-title-left {
+        background-size: 120px 9px;
+        background-position: left 29px;
     }
 }
 
@@ -162,8 +178,12 @@ h2 {
         font-size: 20px;
     }
     .bg-title-center {
-        background-size: 150px 8px;
-        background-position: center 36px;
+        background-size: 150px 10px;
+        background-position: center 29px;
+    }
+    .bg-title-left {
+        background-size: 150px 10px;
+        background-position: left 29px;
     }
 }
 @media (min-width: 1399px) {
@@ -178,6 +198,10 @@ h2 {
     }
     .bg-title-center {
         background-size: 150px 11px;
-        background-position: center 38px;
+        background-position: center 33px;
+    }
+    .bg-title-left {
+        background-size: 150px 11px;
+        background-position: left 33px;
     }
 }
