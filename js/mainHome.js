@@ -15,6 +15,8 @@ import { services } from './components/services/services.js';
 /* Partner section */
 /* How we work */
 /* Blog */
+import { blogData } from './data/blogData.js';
+import { Blog } from './components/blog/Blog.js'
 /* Contacts */
 /* Footer */
 
@@ -34,5 +36,7 @@ services('#services_block', servicesData);
 /* Partner section */
 /* How we work */
 /* Blog */
+const blog = new Blog('#blog_block', blogData);
+
 /* Contacts */
 /* Footer */
