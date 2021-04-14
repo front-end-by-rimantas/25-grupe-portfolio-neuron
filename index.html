@@ -213,73 +213,8 @@
                 <h2 class="bg-title-center ">Recent Blog Post</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-lg-4 col-md-6 blog-block">
-                <img class='blog-image' src="./img/blog/blog-1.jpeg" alt="blog image">
-                <div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="tiny-intro">
-                                <p><i class="fa fa-calendar-check-o"></i> Nov 28, 2019</p>
-                                <p><i class="fa fa-user-o"></i> Admin</p>
-                                <p> <span>10</span> Comments</p>
-                            </div>
-                            <h3>
-                                <a href="./img/blog/blog-2.jpeg">Man in Red Plaid Shirt Talking on Phone Terrace</a>
-                            </h3>
-                            <p class="main-blog-text">
-                                The Tutorial covers examples of identification And Rew Garfield and verifies if a
-                                picture
-                            </p>
-                            <button class="btn">READ MORE</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 col-md-6 blog-block">
-                <img class='blog-image' src="./img/blog/blog-2.jpeg" alt="blog image">
-                <div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="tiny-intro">
-                                <p><i class="fa fa-calendar-check-o"></i> Nov 28, 2019</p>
-                                <p><i class="fa fa-user-o"></i> Admin</p>
-                                <p> <span>10</span> Comments</p>
-                            </div>
-                            <h3>
-                                <a href="./img/blog/blog-2.jpeg">Man in Red Plaid Shirt Talking on Phone Terrace</a>
-                            </h3>
-                            <p class="main-blog-text">
-                                The Tutorial covers examples of identification And Rew Garfield and verifies if a
-                                picture
-                            </p>
-                            <button class="btn">READ MORE</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 col-md-6 blog-block">
-                <img class='blog-image' src="./img/blog/blog-3.jpeg" alt="blog image">
-                <div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="tiny-intro">
-                                <p><i class="fa fa-calendar-check-o"></i> Nov 28, 2019</p>
-                                <p><i class="fa fa-user-o"></i> Admin</p>
-                                <p> <span>10</span> Comments</p>
-                            </div>
-                            <h3>
-                                <a href="./img/blog/blog-2.jpeg">Man in Red Plaid Shirt Talking on Phone Terrace</a>
-                            </h3>
-                            <p class="main-blog-text">
-                                The Tutorial covers examples of identification And Rew Garfield and verifies if a
-                                picture
-                            </p>
-                            <button class="btn">READ MORE</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div id="blog_block" class="row">
+            BLOG CONTENT
         </div>
     </div>
     <!-- Blog post END -->
@@ -290,7 +225,6 @@
             <div class="row">
                 <div class="col-12 col-lg-5">
                     <div class="contactUs">
-
                         <div class="contact-us-icon">
                             <i class="flaticon-gps">
                             </i>
@@ -430,7 +364,7 @@
                         <div class="footer-navigate">
                             <h4 class="footer-title">navigate</h4>
                             <div class="row">
-                                <div class="col-12 col-lg-6 ">
+                                <div class="col-12 col-lg-8">
                                     <ul>
                                         <li>
                                             <a href="#">About Us</a>
@@ -449,7 +383,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-12 col-lg-6 ">
+                                <div class="col-12 col-lg-4">
                                     <ul>
                                         <li>
                                             <a href="#">Blog</a>
@@ -495,15 +429,51 @@
                 </div>
             </div>
         </div>
-        <div>
-            CHATBOX
+        <button class="btn-chatbox">
+            <i class="flaticon-chat"></i>
+        </button>
+
+        <div class="chat-popup">
+            <div class="chatbox-header">
+                <div class="col-10 chatbox-header-left">
+                    <div class="avatar">
+                        <img src="./img/chat.png" alt="chat-avatar">
+                        <span class="active-icon"></span>
+                    </div>
+                    <div class="chatbot-text">
+                        <p class="chatbot-upper">ChatBox</p>
+                        <p class="chatbot-lower">Active</p>
+                    </div>
+                </div>
+                <div class="col-2 chatbox-header-right">
+                    <div class="close-chat">
+                        <button class="close-chat-btn">
+                            <i class="flaticon-error"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-area">
+                <p class="chat-upper-text">Hello Friend, I can help you with anything related to chatbots!</p>
+                <p class="chat-lower-text">Let me know if you're planning to create a chatbot for your business!</p>
+            </div>
+            <div class="start-chat-container">
+                <button class="start-chat-btn">Let's start a chat</button>
+            </div>
         </div>
+
     </footer>
 
     <!-- FOOTER END -->
 
+    <!-- CHATBOX START-->
+
+
+    <!-- CHATBOX START-->
+
     <!-- JS Import -->
     <script src="./js/mainHome.js" type="module" defer></script>
+    <script src="./js/components/chatbox/chatbox.js" type="module" defer></script>
 </body>
 
 </html>

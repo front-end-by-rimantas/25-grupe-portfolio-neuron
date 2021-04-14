@@ -4,8 +4,8 @@
 
 h4 {
     margin-bottom: 40px;
-    position: relative;
     text-transform: uppercase;
+    position: relative;
     font-weight: 600;
     font-size: 20px;
     z-index: 1;
@@ -28,7 +28,6 @@ h4 {
 
 ul {
     list-style: outside none none;
-    margin: 0;
     padding: 0;
 }
 
@@ -43,9 +42,11 @@ ul:hover {
 }
 
 .footer-column {
-    max-width: 400px;
-    position: relative;
     margin-top: 50px;
+}
+
+.footer-column .row {
+    margin-left: 0px;
 }
 
 .footer-lower {
@@ -96,4 +97,6 @@ footer a:hover {
     color:#fff;    
 }
 
-
+.footer-navigate ul {
+    margin-left: -20px;
+}

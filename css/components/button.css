@@ -88,3 +88,64 @@
     border: 1px solid #fff;
     color: var(--color-blue);
 }
+
+.btn-chatbox {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;    
+    padding: 30px 20px;
+    background: linear-gradient(150deg, var(--color-blue), var(--color-green));
+    color: #fff;
+    border-radius: 100%;
+    line-height: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.btn-chatbox:hover {
+    background: linear-gradient(200deg, var(--color-blue), var(--color-green));
+}
+
+.start-chat-btn {
+    width: 90%;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 10px 15px 15px;
+    background: linear-gradient(150deg, var(--color-blue), var(--color-green));
+    color: #fff;
+    border-radius: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    outline: none;
+}
+
+.start-chat-btn:hover {
+    cursor: pointer;
+    color: black;
+
+    /* reikia pakeisti black į atitinkamą efektą */
+}
+
+.close-chat-btn {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.close-chat-btn:hover {
+    cursor: pointer;
+    color: black;
+}
