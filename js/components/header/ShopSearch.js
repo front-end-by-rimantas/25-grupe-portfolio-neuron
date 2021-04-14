@@ -8,10 +8,10 @@ class ShopSearch {
    */
   constructor(DOM, data) {
 
-    console.log(DOM);
+
     this.DOM = DOM;
     this.data = data;
-    console.log(this.data);
+
     this.init();
   }
 

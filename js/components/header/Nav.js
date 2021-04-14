@@ -44,14 +44,20 @@ class Nav {
     let HTML = '';
 
     if (item.submenu) {
-      const dropdownHMTL = `<a href="${item.href}">${item.text}</a>`;
+      const dropdownHTML = `<a class="label" href="${item.href}" >${item.text}</a>`;
 
-      HTML += `<div >
-                        ${dropdownHMTL}
-                        <div class="submenu">SUBMENU</div>
+      let subMenuHTML = '';
+
+      for (const subMenuItem of item.submenu) {
+        subMenuHTML += this.generateHTML(subMenuItem);
+      }
+
+      HTML += `<div class='item dropdown'>
+                        ${dropdownHTML}
+                        <div class="submenu">${subMenuHTML}</div>
                     </div>`;
     } else {
-      HTML += `<a href="${item.href}" >${item.text}</a>`;
+      HTML += `<a href="${item.href}" class="item" >${item.text}</a>`;
     }
 
     return HTML;
@@ -62,7 +68,6 @@ class Nav {
     let HTML = '';
 
     for (const item of this.data) {
-
       HTML += this.generateHTML(item);
     }
 

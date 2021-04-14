@@ -57,6 +57,8 @@ class Header {
                     <div class="col-6 col-lg-3 hd"></div>
                     <div class="row col-6 col-lg-9 header-bottom-right hd">
                       <nav class="menu hidden visible-lg"></nav>
+                      <nav class="small-menu visible hidden-lg">
+                    <a id="s_menu_btn" href="#"><i class="fa fa-bars"></i>MENU</a></nav>
                       <nav class="header-bottom-icons hd"></nav>
                       </div>
                       <div id="search_block" class="search-block search-on">
