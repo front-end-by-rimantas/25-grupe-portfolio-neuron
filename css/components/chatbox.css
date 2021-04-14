@@ -1,12 +1,12 @@
 .chat-popup {
     display:none;
-    /*!!! Jei footer h4 position ne relative, tada jis neužlipa ant chatbox, bet tada dingsta h4 background, nes jo position yra absolute !!!*/
     position: fixed; 
     bottom: 150px;
     right: 50px;
     width: 315px;
     z-index: 1;
-    transition: 1s ease;
+    transition: 0.5s;
+    /* transition neveikia su display:none */
 }
 
 .chat-area {
