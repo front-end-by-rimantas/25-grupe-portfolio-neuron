@@ -7,6 +7,6 @@ chatBtn.addEventListener('click', ()=>{
 })
 
 closeBtn.addEventListener('click', ()=>{
-    popup.classList.toggle('close');
+    popup.classList.toggle('show');
 })
 
