@@ -109,14 +109,19 @@ const headerData = {
       text: 'CONTACT',
     }
   ],
-  shop: {
-    type: 'link',
-    icon_class: 'fa fa-shopping-bag'
-  },
-  search: {
-    type: 'link',
-    icon_class: 'fa fa-search'
-  }
+  bottom_icons: [
+    {
+      type: 'link',
+      href: '#',
+      icon_class: 'fa fa-shopping-bag'
+    },
+    {
+      type: 'link',
+      href: '#',
+      icon_class: 'fa fa-search',
+      element_id: 'search_btn',
+    }
+  ]
 }
 
 export { headerData }

@@ -17,7 +17,7 @@ class Nav {
     }
 
     const DOM = this.parentDOM.querySelector('.menu');
-    console.log(DOM);
+
     if (!DOM) {
       return false;
     }
@@ -40,7 +40,6 @@ class Nav {
   // }
 
   generateHTML(item) {
-    console.log(item);
 
     let HTML = '';
 
@@ -59,7 +58,6 @@ class Nav {
   }
 
   render() {
-    console.log(this.data);
 
     let HTML = '';
 
