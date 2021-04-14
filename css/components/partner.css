@@ -13,10 +13,10 @@
 }
 }
 @media (min-width: 991px) {
-.pt-lg {
-    padding-top: 300px;
+.ptlg {
+    padding-top: 150px;
 }
-.pb-lg {
+.pblg {
     padding-bottom: 100px;
 }
 }
