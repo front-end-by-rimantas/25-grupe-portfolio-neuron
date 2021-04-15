@@ -20,7 +20,6 @@ import { services } from './components/services/services.js';
 /* Blog */
 import { blogData } from './data/blogData.js';
 import { Blog } from './components/blog/Blog.js';
-import { blogCarousel } from './components/blog/blogCarousel.js';
 /* Contacts */
 /* Footer */
 
@@ -43,6 +42,5 @@ services('#services_block', servicesData);
 /* How we work */
 /* Blog */
 const blog = new Blog('#blog_block', blogData);
-blogCarousel();
 /* Contacts */
 /* Footer */

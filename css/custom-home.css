@@ -45,10 +45,12 @@
   margin: 50px 0 30px;
 }
 .blog-block{
+  display: block;
   background-color: white;
   margin-bottom: 30px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
 }
+
 .blog-image {
   width: 100%;
 }

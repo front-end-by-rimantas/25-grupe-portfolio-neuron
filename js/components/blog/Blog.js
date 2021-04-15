@@ -6,6 +6,8 @@ class Blog {
     this.DOM = null;
 
     this.init();
+
+    this.addEvent();
   }
 
 
@@ -68,7 +70,7 @@ class Blog {
   render() {
     let HTML = '';
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < this.data.list.length; i++) {
       const blogPost = this.data.list[i];
 
       HTML += `<div class="col-12 col-lg-4 col-md-6 blog-block">
@@ -93,6 +95,35 @@ class Blog {
     this.DOM.innerHTML = HTML;
   }
 
+  addEvent() {
+
+    let blogPosts = document.querySelectorAll(".blog-block");
+
+    let firstBlogIndex = 0;
+
+
+    function rotateCarousel() {
+
+      let firstBlog = [blogPosts[firstBlogIndex]];
+      blogPosts[firstBlogIndex].remove();
+
+      blogPosts = [...blogPosts, ...firstBlog];
+      console.log(blogPosts);
+
+
+      // blogPosts.innerHTML+=
+
+      firstBlogIndex = ++firstBlogIndex % blogPosts.length;
+
+
+      // blogPosts.style.marginLeft = `-${blogPosts[activeBlogIndex]}00%`;
+    }
+
+    setInterval(rotateCarousel, 3000);
+
+  }
+
 }
 
 export { Blog }
+
