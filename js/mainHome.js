@@ -20,7 +20,7 @@ import { services } from './components/services/services.js';
 /* Blog */
 import { blogData } from './data/blogData.js';
 import { Blog } from './components/blog/Blog.js';
-import { blogCarousel } from './components/blog/Blog.js';
+import { blogCarousel } from './components/blog/blogCarousel.js';
 /* Contacts */
 /* Footer */
 

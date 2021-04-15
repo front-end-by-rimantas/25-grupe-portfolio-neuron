@@ -1,4 +1,9 @@
-console.log('blogo karusele');
+function blogCarousel() {
+  console.log('blogo karusele');
+}
+
+export { blogCarousel };
+
 
 
 // const slideIndex = 1;
