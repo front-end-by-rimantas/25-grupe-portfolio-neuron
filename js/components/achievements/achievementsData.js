@@ -2,22 +2,22 @@ const achievementsData = {
     maxCount: 4,
     list: [
         {
-            number: 6000,
+            value: 6000,
             plus: '+',
             subtitle: 'Complete Project',
         },
         {
-            number: 400,
+            value: 400,
             plus: '+',
             subtitle: 'NLP Experts',
         },
         {
-            number: 3500,
+            value: 3500,
             plus: '+',
             subtitle: 'Satisfied Clients',
         },
         {
-            number: 8000,
+            value: 8000,
             plus: '+',
             subtitle: 'Industries Server',
         },

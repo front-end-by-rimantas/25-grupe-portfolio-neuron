@@ -11,7 +11,7 @@ import { sDropdownMenu } from './components/header/sDropdownMenu.js';
 /* About */
 /* About video */
 /* Achievements */
-import { Achievements } from './components/Achievements.js';
+import { Achievements } from './components/achievements/Achievements.js';
 import { achievementsData } from './components/achievements/achievementsData.js';
 /* Services */
 import { servicesData } from './data/servicesData.js';
