@@ -1,10 +1,17 @@
 .r-animation {
     animation: r-animation 2s;
-    animation-direction: alternate;
     animation-iteration-count: infinite;
-    vertical-align: center;
+    animation-direction: alternate;
   }
   @keyframes r-animation {
     from {transform: translateY(0);}
     to {transform: translateY(-30px);}
+  }
+
+  .l-animation {
+    animation: l-animation 0.7s infinite alternate;
+  }
+  @keyframes l-animation {
+    from {transform: scale(1);}
+    to {transform: scale(1.2);}
   }
