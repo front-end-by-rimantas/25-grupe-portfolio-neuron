@@ -6,10 +6,10 @@
     margin: 0 auto; 
   }
 
-.card-bg-white {
+/* .card-bg-white {
     background: -webkit-linear-gradient(-90deg, #fff, #fff);
     transition: all 1s ease;
-}
+} */
 .card { 
     float: left;
     border-radius: 10px;
