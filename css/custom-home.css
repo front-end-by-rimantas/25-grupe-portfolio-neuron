@@ -27,7 +27,9 @@
 /* Hero */
 @import "./components/animation.css";
 /* About */
+@import "./components/about.css";
 /* About video */
+@import "./components/about-video.css";
 /* Achievements */
 /* Services */
 /* Latest project */
