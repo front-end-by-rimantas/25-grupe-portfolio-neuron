@@ -11,6 +11,8 @@ import { sDropdownMenu } from './components/header/sDropdownMenu.js';
 /* About */
 /* About video */
 /* Achievements */
+import { Achievements } from './components/Achievements.js';
+import { achievementsData } from './components/achievements/achievementsData.js';
 /* Services */
 import { servicesData } from './data/servicesData.js';
 import { services } from './components/services/services.js';
@@ -35,6 +37,9 @@ search('#search_btn', '#search_block', '.close-btn');
 /* About */
 /* About video */
 /* Achievements */
+const achievement = new Achievements('#achievements_block', achievementsData);
+achievement.render();
+
 /* Services */
 services('#services_block', servicesData);
 /* Latest project */
