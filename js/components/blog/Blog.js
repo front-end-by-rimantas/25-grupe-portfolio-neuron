@@ -7,7 +7,6 @@ class Blog {
 
     this.init();
 
-    this.addEvent();
   }
 
 
@@ -95,33 +94,7 @@ class Blog {
     this.DOM.innerHTML = HTML;
   }
 
-  addEvent() {
 
-    let blogPosts = document.querySelectorAll(".blog-block");
-
-    let firstBlogIndex = 0;
-
-
-    function rotateCarousel() {
-
-      let firstBlog = [blogPosts[firstBlogIndex]];
-      blogPosts[firstBlogIndex].remove();
-
-      blogPosts = [...blogPosts, ...firstBlog];
-      console.log(blogPosts);
-
-
-      // blogPosts.innerHTML+=
-
-      firstBlogIndex = ++firstBlogIndex % blogPosts.length;
-
-
-      // blogPosts.style.marginLeft = `-${blogPosts[activeBlogIndex]}00%`;
-    }
-
-    setInterval(rotateCarousel, 3000);
-
-  }
 
 }
 
