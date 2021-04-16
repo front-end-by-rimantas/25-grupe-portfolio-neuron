@@ -18,14 +18,11 @@ Design: [Neuron portfolio](http://demo.auburnforest.com/html/neuron/demo/index.h
 ## Project features
 
 - Github pages
-- localStorage
 - content rendering with JS
 - scroll event
-- lightbox
 - carousel
-- fontawesome icons
+- fontawesome, favticon icons
 - CSS animations
-- CSS import
 - JS import-export
 - responsive design
 
