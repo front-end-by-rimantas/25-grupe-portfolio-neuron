@@ -26,6 +26,7 @@ class Achievements {
         this.DOM = DOM;
 
         this.render();
+        this.addEvents();
         
         
 
@@ -78,6 +79,23 @@ class Achievements {
         
         this.DOM.innerHTML = HTML;
         }
+
+    addEvents() {
+        addEventListener('scroll', () => {
+            const AllNumbersDOM = this.DOM.querySelectorAll('.value');
+            
+            for(let i=0; i < allNumbersDOM.length; i++) {
+                const numberDOM = allNumbersDOM[i];
+                const elementTop = numberDOM.offsetTop;
+                const elementHeight = numberDOM.clientHeight;
+
+                const isVisible = scrollY + innerHeight >= elementTop + elementHeight ? true : false;
+                if (isVisible) {
+                    numberDOM.innerText = this.data.list[i].value;
+                }
+            }    
+        })
+    }
     }
 
 
