@@ -84,18 +84,42 @@ class Achievements {
         addEventListener('scroll', () => {
             const AllNumbersDOM = this.DOM.querySelectorAll('.value');
             
-            for(let i=0; i < allNumbersDOM.length; i++) {
-                const numberDOM = allNumbersDOM[i];
+            for(let i=0; i < AllNumbersDOM.length; i++) {
+                const numberDOM = AllNumbersDOM[i];
                 const elementTop = numberDOM.offsetTop;
                 const elementHeight = numberDOM.clientHeight;
 
                 const isVisible = scrollY + innerHeight >= elementTop + elementHeight ? true : false;
                 if (isVisible) {
-                    numberDOM.innerText = this.data.list[i].value;
+                    this.animateNumber(numberDOM, i);
                 }
             }    
         })
     }
+    animateNumber(elementDOM, elementIndex) {
+        if (this.data.list[elementIndex].animated !== true) {
+            const targetNumber = this.data.list[elementIndex].value;
+            this.data.list[elementIndex].animated = true;
+            
+            const timeToAnimate = 3000;
+            const fps = 30;
+            const framesCount = timeToAnimate * fps / 1000;
+            const numberIncrement = targetNumber / framesCount;
+            let count = 0;
+            let currentFrameIndex = 0;
+
+            const timer = setInterval(() => {
+                count += numberIncrement;
+                currentFrameIndex++;
+                elementDOM.innerText = Math.round(count);
+
+                if (currentFrameIndex === framesCount) {
+                    clearInterval(timer);
+                }
+            }, 1000 / fps)
+        }
+    }
+
     }
 
 
