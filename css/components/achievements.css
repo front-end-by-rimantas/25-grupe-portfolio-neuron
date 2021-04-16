@@ -1,1 +1,35 @@
+.achievements-list {
+    display: grid;
+    grid-template-columns: 1fr;
 
+}
+
+.achievements-list > .achievement {
+    padding: 50px;
+
+}
+.achievements-list > .achievement > .value { 
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+}
+.achievements-list > .achievement > .plus { 
+    color: white;
+    font-size: 30px;
+    line-height: 45px;
+}
+.achievements-list > .achievement > .subtitle { 
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+}
+@media (min-width: 767px) {
+    .achievements-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 991px) {
+    .achievements-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

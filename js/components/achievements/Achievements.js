@@ -68,6 +68,7 @@ class Achievements {
                         <div class="plus">${item.plus}</div> 
                         <div class="subtitle">${item.subtitle}</div> 
                         </div>`;
+                        // <div class="ach-img"> <img src="./img/count-shape.png" alt=""></div>
         }
         // for (let i = 0; i < this.data.list.length, i++) {    jeigu reikia ne viso listo o tik keliu
         //     const item = this.data.list[i];

@@ -31,6 +31,7 @@
 /* About video */
 @import "./components/about-video.css";
 /* Achievements */
+@import "./components/achievements.css";
 /* Services */
 /* Latest project */
 @import "./components/sub.css";
