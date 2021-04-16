@@ -6,9 +6,11 @@ header.container * {
   font-weight: normal;
   vertical-align: middle;
 }
-/* header.container {
-  background: linear-gradient(150deg, var(--color-blue), var(--color-green));
-} */
+header.container {
+  z-index: 1;
+  position: relative;
+  /* background-color: aquamarine; */
+}
 
 /* ALL LINKS */
 header a {
@@ -77,34 +79,11 @@ div.header-bottom-right {
 }
 
 /* LOGO */
-.header-logo {
+header .logo {
   display: inline-block;
+  cursor: pointer;
 }
 
-/* MENU */
-nav.menu {
-  display: inline-block;
-  text-align: right;
-}
-nav.menu a {
-  margin-right: 20px;
-}
-nav.menu a.home {
-  color: #cccccc;
-}
-nav.small-menu a i {
-  position: relative;
-  top: -2px;
-  margin-right: 8px;
-  font-size: 16px;
-}
-header > .header-bottom a:hover {
-  color: #cccccc;
-  transition: all 0.5s ease 0s;
-}
-nav.small-menu a:hover {
-  color: white;
-}
 
 /* SHOPING & SEARCH ICONS */
 nav.header-bottom-icons {
@@ -114,7 +93,7 @@ nav.header-bottom-icons {
 nav.header-bottom-icons a i {
   position: relative;
   top: -4px;
-  margin: 0 27px;
+  margin: 0 20px;
   font-size: 16px;
 }
 nav.header-bottom-icons a i:hover {

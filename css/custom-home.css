@@ -11,36 +11,43 @@
 @import "./components/footer.css";
 @import "./components/header/header.css";
 @import "./components/header/search.css";
-@import "./components/header/dropdown-menu.css";
+@import "./components/header/menu.css";
 @import "./components/button.css";
+@import "./components/project.css";
 @import "./components/services-card.css";
 @import "./components/hero.css";
+@import "./components/contactUs.css";
+@import "./components/chatbox.css";
 
 /* CUSTOM STILIUS SEKCIJOMS */
 /* Loading page*/
+@import "./components/loading-page.css";
 /* Header */
 /* Navigation */
 /* Hero */
+@import "./components/animation.css";
 /* About */
 /* About video */
 /* Achievements */
 /* Services */
 /* Latest project */
+@import "./components/sub.css";
 /* Partner section */
 @import "./components/partner.css";
 /* How we work */
 @import "./components/works-section.css";
 /* Blog */
+.container.blog {
+  padding-bottom: 130px;
+}
 .container.blog h2 {
   text-align: center;
-  margin: 60px 0 30px;
-  font-weight: 600;
-  font-size: 35px;
-
+  margin: 50px 0 30px;
 }
 .blog-block{
   background-color: white;
-  margin-bottom: 150px;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
 }
 .blog-image {
   width: 100%;
@@ -55,7 +62,7 @@
 }
 .container.blog .tiny-intro p:first-of-type, 
 .container.blog .tiny-intro p:nth-last-of-type(2){
- margin-right: 20px;
+ margin-right: 15px;
 }
 .container.blog .tiny-intro p i{
  position: relative;

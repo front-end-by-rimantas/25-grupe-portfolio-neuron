@@ -11,129 +11,16 @@
 
 <body>
     <!-- Loading page START -->
+    <div class="loading">
+        <div class="load-img">
+            <div class="l-animation">
+                <img src="./img/load.png" alt="Loading..">
+            </div>
+        </div>
+    </div>
     <!-- Loading page END -->
-
     <!-- HEADER START -->
-    <header class="container row">
-        <!-- Header Top START -->
-        <div class="row hidden visible-md header-top">
-            <div class="row">
-                <div class="col-md-7 col-lg-6">
-                    <span class="header-contacts"><i class="fa fa-envelope-o header-email-icon"></i><a
-                            href="#">info@yourwebsite.com</a></span>
-                    <span class="header-contacts"><i class="fa fa-phone header-phone-icon"></i><a href="#">(+123)
-                            456789</a></span>
-                </div>
-                <div class="col-md-5 col-lg-6 header-social-icons">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                </div>
-                <div class="col-12">
-                    <hr>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Header Top End -->
-
-        <!-- Header Bottom START -->
-        <div class="row header-bottom col-12" id='header-bottom'>
-
-
-
-            <div class="col-6 col-lg-3">
-                <a href="#"><img src="./img/Neuron_logo.png" alt="neuron logo" class="header-logo"></a>
-            </div>
-
-            <div class="row col-6 col-lg-9 header-bottom-right">
-
-                <nav class="menu hidden visible-lg">
-                    <div class="large-home-menu">
-                        <a class="home" href="#">HOME</a>
-                        <div id="home-dropdown">
-                            <a href="#">Home One</a>
-                            <a href="#">Home Two</a>
-                            <a href="#">Home Three</a>
-                        </div>
-                    </div>
-
-
-                    <a href="#">ABOUT</a>
-                    <a href="#">FEATURES</a>
-
-                    <div class="large-pages-menu">
-                        <a id="pages_btn" href="#">PAGES</a>
-                        <div id="pages-dropdown">
-                            <div>
-                                <a href="#">Software Demo</a>
-                                <a href="#">Mobile App</a>
-                                <a href="#">Team Page</a>
-                                <a href="#">Privicy Policy Page</a>
-                            </div>
-                            <div>
-                                <a href="#">Pricing Plan</a>
-                                <a href="#">ChatBot</a>
-                                <a href="#">Login</a>
-                                <a href="#">Register</a>
-                            </div>
-                            <div>
-                                <a href="#">Download</a>
-                                <a href="#">Coming Soon</a>
-                                <a href="#">404 Error</a>
-                            </div>
-
-
-                        </div>
-                    </div>
-
-                    <div class="large-shop-menu">
-                        <a href="#">SHOP</a>
-                        <div id="shop-dropdown">
-                            <a href="#">Shop</a>
-                            <a href="#">Shop Single</a>
-                            <a href="#">Cart</a>
-                            <a href="#">Checkout</a>
-                        </div>
-                    </div>
-
-                    <div class="large-blog-menu">
-                        <a href="#">BLOG</a>
-                        <div id="blog-dropdown">
-                            <a href="#">Blog</a>
-                            <a href="#">Blog Left Sidebar</a>
-                            <a href="#">Blog Right Sidebar</a>
-                            <a href="#">Blog Details</a>
-                        </div>
-                    </div>
-
-                    <a href="#">CONTACT</a>
-                </nav>
-
-                <nav class="small-menu visible hidden-lg">
-                    <a href="#"><i class="fa fa-bars"></i>MENU</a>
-                </nav>
-
-                <nav class="header-bottom-icons">
-                    <a href="#"><i class="fa fa-shopping-bag"></i></a>
-                    <a href="#" id="search_btn"><i class="fa fa-search"></i></a>
-                </nav>
-
-            </div>
-
-            <div id="search_block" class="search-block search-on">
-                <form>
-                    <input type="text" placeholder="Searching...">
-                </form>
-                <div class="close-btn"><i class="flaticon-cross-out"></i></div>
-
-            </div>
-
-        </div>
-        <!-- Header Bottom END -->
-    </header>
+    <header id="main_header" class="container row"></header>
     <!-- HEADER END -->
 
     <!-- Hero START -->
@@ -147,7 +34,7 @@
             </div>
             <div class="hidden visible-md col-md-4 col-lg-6">
                 <div>
-                    <img class="photos" src="./img/hero/robot.png" alt="#">
+                    <img class="r-animation photos" src="./img/hero/robot.png" alt="#">
                     <img class="photos pt50" src="./img/hero/guys.png" alt="#">
                 </div>
             </div>
@@ -205,28 +92,51 @@
 
     <!-- Latest project START -->
     <div class="container">
-        <div class="row">
-            <div>
-                TITLE
+        <div class="row center col12">
+            <h2 class="bg-title-center mb26">Our Latest Project</h2>
+        </div>
+        <div class="row col12 mb26">
+            <div class="project-cards">
+                <div class="project-card project-bg1">
+                    <div class="project-2nd-bg project-2nd-bg2"></div>
+                    <img class="project-img" src="./img/project/1.jpg" alt="">
+                    <a href="#">Vocal avatar API</a>
+                </div>
+                <div class="project-card project-bg1">
+                    <div class="project-2nd-bg project-2nd-bg2"></div>
+                    <img class="project-img" src="./img/project/1.jpg" alt="">
+                    <a href="#">Vocal avatar API</a>
+                </div>
+                <div class="project-card project-bg2">
+                    <div class="project-2nd-bg project-2nd-bg2"></div>
+                    <img class="project-img" src="./img/project/3.jpg" alt="">
+                    <a href="#">Vocal avatar API</a>
+                </div>
+
             </div>
         </div>
+    </div>
+    <div class="container center">
         <div class="row">
-            <div>
-                CAROUSEL
+            <div class="sub-section">
+            <i class="sub-icon flaticon-mail"></i>
+            <div class="sub-right-content">
+            <h2 class="bg-title-left sub-title">
+                Don’t Miss Our News
+                And Updates!</h2>
+                <input class="sub-input" type="text" placeholder="Enter Your Email">
+                <a href="#"><i class="sub-send-ico flaticon-send"></i></a>
+            </div>
             </div>
         </div>
-        <div class="row">
-            <div>
-                SUBSCRIPTION FORM
-            </div>
-        </div>
+    </div>
     </div>
     <!-- Latest project END -->
 
     <!-- Partner section START -->
     <div class="container partner bg-partner pab50">
         <div class="row">
-            <div class="row partner pt-lg pb-lg">
+            <div class="row partner ptlg pblg">
                 <div class="col-4 col-lg-2 wid ml-lg-1 mb26"><a href="#"><img src="./img/partners/Progeny.png"
                             alt="Partner logo"></a></div>
                 <div class="col-4 col-lg-2 wid mb26"><a href="#"><img src="./img/partners/Porello.png"
@@ -317,111 +227,268 @@
                 <h2 class="bg-title-center ">Recent Blog Post</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-lg-4 col-md-6 blog-block">
-                <img class='blog-image' src="./img/blog/blog-1.jpeg" alt="blog image">
-                <div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="tiny-intro">
-                                <p><i class="fa fa-calendar-check-o"></i> Nov 28, 2019</p>
-                                <p><i class="fa fa-user-o"></i> Admin</p>
-                                <p> <span>10</span> Comments</p>
-                            </div>
-                            <h3>
-                                <a href="./img/blog/blog-2.jpeg">Man in Red Plaid Shirt Talking on Phone Terrace</a>
-                            </h3>
-                            <p class="main-blog-text">
-                                The Tutorial covers examples of identification And Rew Garfield and verifies if a
-                                picture
-                            </p>
-                            <button class="btn">READ MORE</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 col-md-6 blog-block">
-                <img class='blog-image' src="./img/blog/blog-2.jpeg" alt="blog image">
-                <div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="tiny-intro">
-                                <p><i class="fa fa-calendar-check-o"></i> Nov 28, 2019</p>
-                                <p><i class="fa fa-user-o"></i> Admin</p>
-                                <p> <span>10</span> Comments</p>
-                            </div>
-                            <h3>
-                                <a href="./img/blog/blog-2.jpeg">Man in Red Plaid Shirt Talking on Phone Terrace</a>
-                            </h3>
-                            <p class="main-blog-text">
-                                The Tutorial covers examples of identification And Rew Garfield and verifies if a
-                                picture
-                            </p>
-                            <button class="btn">READ MORE</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 col-md-6 blog-block">
-                <img class='blog-image' src="./img/blog/blog-3.jpeg" alt="blog image">
-                <div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="tiny-intro">
-                                <p><i class="fa fa-calendar-check-o"></i> Nov 28, 2019</p>
-                                <p><i class="fa fa-user-o"></i> Admin</p>
-                                <p> <span>10</span> Comments</p>
-                            </div>
-                            <h3>
-                                <a href="./img/blog/blog-2.jpeg">Man in Red Plaid Shirt Talking on Phone Terrace</a>
-                            </h3>
-                            <p class="main-blog-text">
-                                The Tutorial covers examples of identification And Rew Garfield and verifies if a
-                                picture
-                            </p>
-                            <button class="btn">READ MORE</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div id="blog_block" class="row">
+            BLOG CONTENT
         </div>
     </div>
     <!-- Blog post END -->
 
     <!-- Contact form START -->
-    <div class="container">
-        <div class="row">
-            <div>
-                CONTACT INFO
-            </div>
-            <div>
-                CONTACT FORM
+    <div class="neuron-contact contacts bg-contact" id="neuron-contact">
+        <div class="container neuron-container">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <div class="contactUs">
+                        <div class="contact-us-icon">
+                            <i class="flaticon-gps">
+                            </i>
+                        </div>
+                        <h2 class="contact-bg-left">Contact With Us</h2>
+                        <div class="contact-icons">
+                            <div class="icon-part">
+                                <i class="flaticon-place">
+                                </i>
+                            </div>
+                            <div class="text-part">
+                                <div class="icon-text-upper">
+                                    <h3>Visit Us</h3>
+                                </div>
+                                <div class="icon-text-lower">
+                                    <p>Old Buffalo Street</p>
+                                    <p>Northwest #205, New York - 3087</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="contact-icons">
+                            <div class="icon-part">
+                                <i class="flaticon-phone">
+                                </i>
+                            </div>
+                            <div class="text-part">
+                                <div class="icon-text-upper">
+                                    <h3>Call Us</h3>
+                                </div>
+                                <div class="icon-text-lower">
+                                    <p><a href="+1 (123)-456-7890"> +1 (123)-456-7890</a></p>
+                                    <p><a href="+1 (123)-456-7890"> +1 (123)-456-7890</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="contact-icons">
+                            <div class="icon-part">
+                                <i class="flaticon-mail-1">
+                                </i>
+                            </div>
+                            <div class="text-part">
+                                <div class="icon-text-upper">
+                                    <h3>Email Us</h3>
+                                </div>
+                                <div class="icon-text-lower">
+                                    <div class="hyperlinks">
+                                        <p><a href="infoname@gmail.com">infoname@gmail.com</a></p>
+                                        <p><a href="www.yourname.com">www.yourname.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <div class="contact-form pt-35">
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="form-field">
+                                        <input id="Name" type="text" placeholder="Name" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="form-field">
+                                        <input id="E-mail" type="E-mail" placeholder="E-mail" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="form-field">
+                                        <input id="Number" type="Number" placeholder="Phone Number" required>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-field">
+                                        <input id="Subject" type="Subject" placeholder="Subject" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-field">
+                                <textarea id="Message" cols="30" rows="5" placeholder="Your Message Here"
+                                    autocomplete="off" required></textarea>
+
+                            </div>
+                            <div class="submitbutton">
+                                <button class="btn-submit">Submit Now !</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- Contact form END -->
 
     <!-- FOOTER START -->
-    <footer class='container'>
-        <div class="row">
-            <div>
-                5 COLUMNS
+    <footer class='footer bg-footer'>
+        <div class="footer-upper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3 col-md-12 col-sm-12 col-xs-12 footer-column">
+                        <div class="footer-about">
+                            <div class="footer-about-logo">
+                                <img src="./img/footer-logo.png" alt="footer-logo">
+                            </div>
+                            <div class="footer-about-text">
+                                <p>Lorem ipsum dolor sit amet, conse turini adipiscing elit, sed do eiusmod tempor in
+                                    cididunt ut labore.</p>
+                            </div>
+                            <div class="footer-about-social">
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-12 col-sm-12 col-xs-12 footer-column">
+                        <h4 class="footer-title">work hours</h4>
+                        <p class="upper-text">10.00 AM - 6.00 PM, Monday - Saturday</p>
+                        <p>Our Support and Sales team is available 24 * 7 to answer your queries</p>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 footer-column">
+                        <div class="footer-navigate">
+                            <h4 class="footer-title">navigate</h4>
+                            <div class="row">
+                                <div class="col-12 col-lg-8">
+                                    <ul>
+                                        <li>
+                                            <a href="#">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Features</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Mobile App</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Software Demo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Software Download</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Team</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">ChatBot</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 footer-column">
+                        <h4 class="footer-title">privacy & tos</h4>
+                        <ul>
+                            <li>
+                                <a href="#">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Login</a>
+                            </li>
+                            <li>
+                                <a href="#">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div>
-                COPYRIGHT INFO
-            </div>
-            <div>
-                CHATBOX
+        <div class="footer-lower">
+            <div class="container">
+                <div class="copyrights">
+                    <p> © Copyrights 2019
+                        <a href="AuburnForest">AuburnForest</a>
+                    </p>
+                </div>
             </div>
         </div>
+        <button class="btn-chatbox">
+            <i class="flaticon-chat"></i>
+        </button>
+
+        <div class="chat-popup">
+            <div class="chatbox-header">
+                <div class="col-10 chatbox-header-left">
+                    <div class="avatar">
+                        <img src="./img/chat.png" alt="chat-avatar">
+                        <span class="active-icon"></span>
+                    </div>
+                    <div class="chatbot-text">
+                        <p class="chatbot-upper">ChatBox</p>
+                        <p class="chatbot-lower">Active</p>
+                    </div>
+                </div>
+                <div class="col-2 chatbox-header-right">
+                    <div class="close-chat">
+                        <button class="close-chat-btn">
+                            <i class="flaticon-error"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-area">
+                <p class="chat-upper-text">Hello Friend, I can help you with anything related to chatbots!</p>
+                <p class="chat-lower-text">Let me know if you're planning to create a chatbot for your business!</p>
+            </div>
+            <div class="start-chat-container">
+                <button class="start-chat-btn">Let's start a chat</button>
+            </div>
+        </div>
+
     </footer>
 
     <!-- FOOTER END -->
 
+    <!-- CHATBOX START-->
+
+
+    <!-- CHATBOX START-->
+
     <!-- JS Import -->
     <script src="./js/mainHome.js" type="module" defer></script>
+    <script src="./js/components/chatbox/chatbox.js" type="module" defer></script>
+    <script src="./js/components/loadingscreen/loadingScreen.js" type="module" defer></script>
 </body>
 
 </html>

@@ -1,0 +1,120 @@
+.project-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 10px 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.project-card {
+    float: left;
+    width: 350px;
+    height: 370px;
+    vertical-align: middle;
+    border-radius:  5px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.project-img {
+    width: 100%;   
+}
+.project-cards > .project-card > a {
+    display: none;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 90%;
+    opacity: 1;
+    z-index: 1;
+    transition: all 0.7s ease 0s;
+}
+.project-2nd-bg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    background: linear-gradient( #fff, #fff);
+    transition: all 0.7s;
+    border-radius: inherit;
+}
+.project-2nd-bg2 {
+    opacity: 0;
+    background: linear-gradient(-41deg, #09c778, #01a0f9);
+}
+.project-card:hover > .project-2nd-bg2 {
+    opacity: 0.7;
+    z-index: 1;
+}
+.project-cards > .project-card:hover > a {
+    display: block;
+    position: absolute;
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.project-cards > .project-card > a:hover {
+    color: #000;
+}
+
+@media (max-width: 574px) {
+    .project-cards {
+      grid-template-columns: 1fr;
+    }
+    .project-card {
+        width: 470px;
+        height: 400px;
+    }
+}
+@media (min-width: 575px) {
+    .project-cards {
+      grid-template-columns: 1fr;
+    }
+    .project-card {
+        width: 470px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 767px) {
+    .project-cards {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px 30px;
+    }
+    .project-card {
+        width: 310px;
+        height: 330px;
+        
+    }
+}
+  
+  @media (min-width: 991px) {
+    .project-cards {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px 15px;
+    }
+    .project-card {
+        width: 280px;
+        height: 340px;
+    }
+}
+@media (min-width: 1199px) {
+    .project-cards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .project-card {
+        width: 345px;
+        height: 370px;
+    }
+}
+@media (min-width: 1400px) {
+    .project-cards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .project-card {
+        width: 370px;
+        height: 395px;
+    }
+}
