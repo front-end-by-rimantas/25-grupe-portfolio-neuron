@@ -1,4 +1,7 @@
-
+.about-start{
+    position: relative;
+    top: -70px;
+}
 .about-start .row {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -22,27 +25,9 @@
 
 .about-start .card {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
-}
-.we-create {
-    padding-bottom: 50px;
+    padding: 20px; 
 }
 
-.we-create i {
-    background: -webkit-linear-gradient(-90deg, #01a0f9, #09c778);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: relative;
-}
-.we-create a.video {
-    text-decoration: none;
-}
-
-.about-sm-image {
-    display: block;
-}
-.about-lg-image {
-    display: none;
-}
 
 @media (max-width: 991px) {
     .about-start .row {
