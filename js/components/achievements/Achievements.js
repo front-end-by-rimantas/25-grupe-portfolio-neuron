@@ -26,6 +26,7 @@ class Achievements {
         this.DOM = DOM;
 
         this.render();
+        this.addEvents();
 
 
 
@@ -77,6 +78,48 @@ class Achievements {
 
         this.DOM.innerHTML = HTML;
     }
+
+    addEvents() {
+        addEventListener('scroll', () => {
+            const AllNumbersDOM = this.DOM.querySelectorAll('.value');
+
+            for (let i = 0; i < AllNumbersDOM.length; i++) {
+                const numberDOM = AllNumbersDOM[i];
+                const elementTop = numberDOM.offsetTop;
+                const elementHeight = numberDOM.clientHeight;
+
+                const isVisible = scrollY + innerHeight >= elementTop + elementHeight ? true : false;
+                if (isVisible) {
+                    this.animateNumber(numberDOM, i);
+                }
+            }
+        })
+    }
+    animateNumber(elementDOM, elementIndex) {
+        if (this.data.list[elementIndex].animated !== true) {
+            const targetNumber = this.data.list[elementIndex].value;
+            this.data.list[elementIndex].animated = true;
+
+            const timeToAnimate = 3000;
+            const fps = 30;
+            const framesCount = timeToAnimate * fps / 1000;
+            const numberIncrement = targetNumber / framesCount;
+            let printedValue = 0;
+            let currentFrameIndex = 0;
+
+            const timer = setInterval(() => {
+                printedValue += numberIncrement;
+                currentFrameIndex++;
+                elementDOM.innerText = Math.round(printedValue);
+
+                if (currentFrameIndex === framesCount) {
+                    clearInterval(timer);
+                }
+            }, 1000 / fps)
+        }
+    }
+
+}
 }
 
 
