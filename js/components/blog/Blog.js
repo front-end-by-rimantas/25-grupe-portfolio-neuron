@@ -6,6 +6,7 @@ class Blog {
     this.DOM = null;
 
     this.init();
+
   }
 
 
@@ -68,7 +69,7 @@ class Blog {
   render() {
     let HTML = '';
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < this.data.list.length; i++) {
       const blogPost = this.data.list[i];
 
       HTML += `<div class="col-12 col-lg-4 col-md-6 blog-block">
@@ -90,9 +91,14 @@ class Blog {
             </div>`;
     }
 
+
     this.DOM.innerHTML = HTML;
+
   }
+
+
 
 }
 
 export { Blog }
+

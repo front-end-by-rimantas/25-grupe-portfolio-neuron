@@ -37,7 +37,9 @@
   }*/
 .works-title {
     color: #666666;
-
+}
+.white {
+  color: white;
 }
 .arrow {
     margin-top: 30px;

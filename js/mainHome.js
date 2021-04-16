@@ -11,6 +11,8 @@ import { sDropdownMenu } from './components/header/sDropdownMenu.js';
 /* About */
 /* About video */
 /* Achievements */
+import { Achievements } from './components/achievements/Achievements.js';
+import { achievementsData } from './components/achievements/achievementsData.js';
 /* Services */
 import { servicesData } from './data/servicesData.js';
 import { services } from './components/services/services.js';
@@ -19,7 +21,8 @@ import { services } from './components/services/services.js';
 /* How we work */
 /* Blog */
 import { blogData } from './data/blogData.js';
-import { Blog } from './components/blog/Blog.js'
+import { Blog } from './components/blog/Blog.js';
+import { renderBlogCarousel } from './components/blog/renderBlogCarousel.js';
 /* Contacts */
 /* Footer */
 
@@ -35,6 +38,9 @@ search('#search_btn', '#search_block', '.close-btn');
 /* About */
 /* About video */
 /* Achievements */
+const achievement = new Achievements('#achievements_block', achievementsData);
+// achievement.render();
+
 /* Services */
 services('#services_block', servicesData);
 /* Latest project */
@@ -42,6 +48,6 @@ services('#services_block', servicesData);
 /* How we work */
 /* Blog */
 const blog = new Blog('#blog_block', blogData);
-
+renderBlogCarousel();
 /* Contacts */
 /* Footer */

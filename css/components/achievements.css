@@ -1,0 +1,44 @@
+.achievements-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px 0;
+    font-weight: 600;
+}
+
+.achievements-list > .achievement {
+    padding: 50px;
+    text-align: center;
+    background-image: url(../../img/count-shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 175px;
+}
+.achievements-list > .achievement > .value,
+.achievements-list > .achievement > .plus  { 
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+    display: inline-block;
+    /* margin-bottom: 5px; */
+}
+/* .achievements-list > .achievement > .plus { 
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 45px;
+} */
+.achievements-list > .achievement > .subtitle { 
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+}
+@media (min-width: 767px) {
+    .achievements-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 991px) {
+    .achievements-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

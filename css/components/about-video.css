@@ -1,0 +1,40 @@
+.picture {
+    width: 100%;
+}
+
+.about-btns {
+    display: inline-flex;
+    margin-top: 20px;
+}
+.play {
+    line-height: 40px;
+    font-size: 40px;
+    margin-left: 20px;
+    color: linear-gradient(-90deg, #01a0f9, #09c778);
+}
+.top {
+    margin-top: 50px;
+}
+
+.we-create {
+    
+    position: relative;
+    top: -70px;
+}
+
+.we-create i {
+    background: -webkit-linear-gradient(-90deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+.we-create a.video {
+    text-decoration: none;
+}
+
+.about-sm-image {
+    display: block;
+}
+.about-lg-image {
+    display: none;
+}
