@@ -35,7 +35,7 @@ function renderBlogCarousel() {
 
   }
 
-  setInterval(rotateCarousel, 6000);
+  setInterval(rotateCarousel, 2000);
 
 }
 
