@@ -26,8 +26,8 @@ class Achievements {
         this.DOM = DOM;
 
         this.render();
-        
-        
+
+
 
     }
 
@@ -61,24 +61,23 @@ class Achievements {
 
     render() {
         let HTML = '';
-        
+
         for (const item of this.data.list) {
             HTML += `<div class="achievement">
-                        <div class="value">${item.value}</div> 
-                        <div class="plus">${item.plus}</div> 
+                        <div class="value">${item.value}+</div> 
                         <div class="subtitle">${item.subtitle}</div> 
                         </div>`;
-                        // <div class="ach-img"> <img src="./img/count-shape.png" alt=""></div>
+            // <div class="ach-img"> <img src="./img/count-shape.png" alt=""></div>
         }
         // for (let i = 0; i < this.data.list.length, i++) {    jeigu reikia ne viso listo o tik keliu
         //     const item = this.data.list[i];
         //     if (2) {
         //         break;
         //     }
-        
+
         this.DOM.innerHTML = HTML;
-        }
     }
+}
 
 
 export { Achievements }
