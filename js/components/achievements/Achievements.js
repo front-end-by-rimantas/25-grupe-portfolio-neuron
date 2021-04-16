@@ -105,13 +105,13 @@ class Achievements {
             const fps = 30;
             const framesCount = timeToAnimate * fps / 1000;
             const numberIncrement = targetNumber / framesCount;
-            let count = 0;
+            let printedValue = 0;
             let currentFrameIndex = 0;
 
             const timer = setInterval(() => {
-                count += numberIncrement;
+                printedValue += numberIncrement;
                 currentFrameIndex++;
-                elementDOM.innerText = Math.round(count);
+                elementDOM.innerText = Math.round(printedValue);
 
                 if (currentFrameIndex === framesCount) {
                     clearInterval(timer);
