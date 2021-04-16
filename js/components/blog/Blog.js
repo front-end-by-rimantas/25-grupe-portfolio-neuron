@@ -91,7 +91,9 @@ class Blog {
             </div>`;
     }
 
+
     this.DOM.innerHTML = HTML;
+
   }
 
 
