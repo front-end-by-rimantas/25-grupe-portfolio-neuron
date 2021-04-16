@@ -38,7 +38,7 @@ search('#search_btn', '#search_block', '.close-btn');
 /* About video */
 /* Achievements */
 const achievement = new Achievements('#achievements_block', achievementsData);
-achievement.render();
+// achievement.render();
 
 /* Services */
 services('#services_block', servicesData);
