@@ -13,16 +13,20 @@
     background-position: center;
     background-size: 175px;
 }
-.achievements-list > .achievement > .value { 
+.achievements-list > .achievement > .value,
+.achievements-list > .achievement > .plus  { 
     color: white;
     font-size: 30px;
     line-height: 35px;
+    display: inline-block;
+    /* margin-bottom: 5px; */
 }
-.achievements-list > .achievement > .plus { 
+/* .achievements-list > .achievement > .plus { 
     color: white;
     font-size: 30px;
+    display: inline-block;
     line-height: 45px;
-}
+} */
 .achievements-list > .achievement > .subtitle { 
     color: white;
     font-size: 15px;

@@ -65,7 +65,8 @@ class Achievements {
 
         for (const item of this.data.list) {
             HTML += `<div class="achievement">
-                        <div class="value">${item.value}+</div> 
+                        <div class="value">${item.value}</div> 
+                        <div class="plus">${item.plus}</div>
                         <div class="subtitle">${item.subtitle}</div> 
                         </div>`;
             // <div class="ach-img"> <img src="./img/count-shape.png" alt=""></div>
